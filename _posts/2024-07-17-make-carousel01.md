@@ -7,7 +7,7 @@ toc_label: "목차"
 toc_icon: "align-left"
 toc_sticky: true
 categories:
-  - mini project
+  - mini
   - til
   - js
 tags:
