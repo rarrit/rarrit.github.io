@@ -1,10 +1,8 @@
 require "json"
 
-package_json = JSON.parse(File.read("package.json"))
-
 Gem::Specification.new do |spec|
   spec.name                    = "minimal-mistakes-jekyll"
-  spec.version                 = package_json["version"]
+  spec.version                 = "3.0.5"  # 버전을 정적으로 지정
   spec.authors                 = ["Michael Rose", "iBug"]
 
   spec.summary                 = %q{A flexible two-column Jekyll theme.}
