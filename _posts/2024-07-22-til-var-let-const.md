@@ -72,7 +72,7 @@ sidebar_main: true
 
 #### :pushpin: 변수와 상수 선언 방법
 
-1. var
+**_var_**
 
 - 함수 스코프를 가짐
 - 재선언 가능
@@ -85,7 +85,7 @@ myVar = "GoodBye 01"; // 재할당 가능
 console.log(myVar); // GoodBye 01
 ```
 
-2. let
+**_let_**
 
 - 블록 스코프를 가짐
 - 재선언 불가
@@ -98,7 +98,7 @@ myLet = "GoodBye 02"; // 재할당 가능
 console.log(myLet); // GoodBye 02
 ```
 
-3. const
+**_const_**
 
 - 블록 스코프를 가짐.
 - 재선언 불가.
