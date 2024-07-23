@@ -249,3 +249,8 @@ tabs.forEach((target) => {
 
 - 완성 프로젝트 url: [https://dev-rjw.github.io/LuckyVicky/](https://dev-rjw.github.io/LuckyVicky/)
 - 프로젝트 소개: [https://github.com/dev-rjw/LuckyVicky](https://github.com/dev-rjw/LuckyVicky)
+
+#### :pushpin: 적용한 코드
+
+- **깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/carouselSlide](https://github.com/rarrit/TIL/tree/main/Project/carouselSlide)
+- **화면 링크**: [https://rarrit.github.io/TIL/Project/carouselSlide/](https://rarrit.github.io/TIL/Project/carouselSlide/)

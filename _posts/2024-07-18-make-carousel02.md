@@ -80,6 +80,11 @@ const carouselThumbSet = () => {
 
 내일은 오늘보다 더 성장해 있길 기대하며, 글을 마무리해본다. 끝!
 
+#### :pushpin: 적용한 코드
+
+- **깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/carouselSlide](https://github.com/rarrit/TIL/tree/main/Project/carouselSlide)
+- **화면 링크**: [https://rarrit.github.io/TIL/Project/carouselSlide/](https://rarrit.github.io/TIL/Project/carouselSlide/)
+
 #### :pushpin: 다음글 목표
 
 1. 제작 3차 과정은 FireBase를 통해 데이터를 전달받았을 때의 오류 해결과정을 작성해보겠습니다!

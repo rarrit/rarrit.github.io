@@ -187,12 +187,13 @@ const menuItems = [
 6. `addEventListener('click', () => menuCategoryFilter('카테고리명'));`
    마지막으로 버튼을 클릭할 때 `menuCategoryFilter(카테고리명)`의 카테고리명을 함수에서 전달받아 삼항연산자를 통해 그에 맞는 카테고리 배열이 랜더링된다.
 
-#### :pushpin: 적용한 코드
-
-**깃헙 링크**: [메뉴 랜더링](https://github.com/rarrit/TIL/tree/main/Project/menuRendering)
-
 ### :fire: 마무리
 
 처음 요구사항에 맞춰 작업했을 때, 카테고리가 앞으로도 계속 추가될 수 있는 재사용 가능한 기능으로 만들고 싶어져서 추가로 기능을 넣어 만들었다.<br/>
 카테고리 필터링 부분에서 시간이 정말 많이 걸렸었고, 원래는 `renderMenus`에서 if문으로 처리하여 코드를 제작했는데 추후 유지보수에서 if의 조건을 계속 넣어야 하는 불편함이 있어서 `menuCategoryFilter`함수를 추가했다.<br/>
 역시나 시간이 정말 많이 소요되었지만 앞으로도 열심히 경험을 해봐야겠다!
+
+#### :pushpin: 적용한 코드
+
+- **깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/menuRendering](https://github.com/rarrit/TIL/tree/main/Project/menuRendering)
+- **화면 링크**: [https://rarrit.github.io/TIL/Project/menuRendering](https://rarrit.github.io/TIL/Project/menuRendering)

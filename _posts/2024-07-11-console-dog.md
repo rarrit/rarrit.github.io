@@ -118,10 +118,6 @@ console.timeEnd("a"); // a의 실행 시간을 측정하고 출력
 
 <img width="710" alt="console-dog-suc" src="https://github.com/rarrit/TIL/assets/94345781/fc2d6d06-49d9-4a71-944a-3435214da098">
 
-#### 적용한 코드
-
-**깃헙 링크**: [콘솔을 사용하여 강아지 출력하기](https://github.com/rarrit/TIL/tree/main/Project/consoleDog)
-
 ```javascript
 console.time("그리는데 걸린 시간");
 console.log(`
@@ -143,3 +139,8 @@ console.timeEnd("그리는데 걸린 시간");
 처음에 요구사항을 보고 당황을 했는데, 지금까지 `console.log`는 정말 익숙하게 많이 사용해봤지만, `console.time`, `console.warn`등 다른 메서드를 알 지 못했어서 구글에 검색해서 진행했다.<br/>
 그 중 `time()`과 `timeEnd()` 사용법이 처음에 이해가 안되가지고 시간을 조금 잡아먹힌..!<br/>
 위와 같이 강아지를 그리면서 콘솔에 대해 알아보았는데 다양한 메서드를 알게 되었고 재밌는 시간이었다.
+
+#### 적용한 코드
+
+**깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/consoleDog](https://github.com/rarrit/TIL/tree/main/Project/consoleDog)
+**화면 링크**: [https://rarrit.github.io/TIL/Project/consoleDog](https://rarrit.github.io/TIL/Project/consoleDog)

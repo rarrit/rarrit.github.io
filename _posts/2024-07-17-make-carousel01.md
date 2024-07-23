@@ -225,10 +225,6 @@ sidebar_main: true
   마우스 나갈 때에 슬라이드를 실행하고 들어올 때 중지했으니 당연히 오류가 안생겼을 거라 생각했지만 놀랍게도 함수들이 실행되는 시간에 지연이 생겨서 에러가 뒤늦게 발견되는데.. (자동 롤링 3초마다 적용했는데, 마우스 나갈때 횟수만큼 실행됨..) <br/>
   이 부분에 대해서는 수정 방법을 찾아봐야할 것 같다.
 
-#### :pushpin: 적용한 코드
-
-**깃헙 링크**: [carouselSlide](https://github.com/rarrit/TIL/tree/main/Project/carouselSlide)
-
 ### :fire: 마무리
 
 이렇게 자동 슬라이드, 썸네일과 슬라이드 엑티브 연동, 좌우 버튼 기능, 드래그 기능을 적용한 슬라이드를 제작해봤다.<br/>
@@ -236,6 +232,11 @@ sidebar_main: true
 현재는 3차까지 완료한 상태이고 제작과정 1차를 작성하는 입장에서 당시에는 정말 뿌듯하고 재밌었는데, 리팩토링 과정과 firebase를 통해 데이터를 전달받아서 동적으로 화면에 표현하기까지 진행하는데 정말 다양한 오류들과 어려움이 있었다.<br/>
 개인적으로 슬라이드를 구현할 때 `swiper`와 `slick` 등 라이브러리를 사용하며 직접 만드는 것을 쉽게 생각했는데 생각보다 고려해야될 부분도 많고 절대 쉽지 않았다고 느꼈..<br/>
 사실 3차까지 작업하면서 깔끔하게 코드를 짯냐고 물어보면 당연히 `아니..ㅎㅎ`라고 할 거지만 만들면서 배운것도 많고 자바스크립트를 공부한다면 꼭 한번쯤 제작해보라고 추천하고 싶다.
+
+#### :pushpin: 적용한 코드
+
+- **깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/carouselSlide](https://github.com/rarrit/TIL/tree/main/Project/carouselSlide)
+- **화면 링크**: [https://rarrit.github.io/TIL/Project/carouselSlide/](https://rarrit.github.io/TIL/Project/carouselSlide/)
 
 #### :pushpin: 다음글 목표
 
