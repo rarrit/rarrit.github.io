@@ -246,8 +246,8 @@ sidebar_main: true
 
 
 #### :pushpin: 적용한 코드
-**깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
-**적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
+- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
+- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
 
 ### :fire: 마무리
 1차 작업은 전체적인 디자인, 퍼블리싱과 데이터를 뿌려주는 것 까지 완료했다. 2차 구현 예정 사항은 아래에 리스트 형식으로 정리해봤다.<br/>
