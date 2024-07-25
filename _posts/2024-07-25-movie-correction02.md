@@ -19,6 +19,11 @@ sidebar_main: true
 ## :ledger: JavaScript으로 영화 검색 사이트를 제작해보자!
 스파르타 코딩클럽 본 캠프 2주차 - 개인 과제입니다.
 
+![MINKYU MOVIE COLLECTION 01](https://github.com/user-attachments/assets/10654426-d1ae-464b-b8a6-9f637a539d37)
+<br/>
+![MINKYU MOVIE COLLECTION 02](https://github.com/user-attachments/assets/c1e22b00-3047-4f74-8991-43a26a7a9c57)
+
+
 ### :one: 프로젝트 설명
 #### :pushpin: 1-1) 과제 설명
 1. Javascript 과정을 마무리하며, JS 문법의 핵심을 적용해 볼 수 있는 영화 검색 사이트를 제작합니다.
