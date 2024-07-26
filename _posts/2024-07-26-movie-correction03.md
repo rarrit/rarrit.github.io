@@ -1,6 +1,6 @@
 ---
 title: "JavaScript 영화 검색 사이트 제작 및 풀이 과정 (3차)"
-date: 2024-07-25
+date: 2024-07-26
 layout: single
 toc: true
 toc_label: "목차"
