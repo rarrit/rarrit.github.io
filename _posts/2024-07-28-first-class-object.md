@@ -198,6 +198,7 @@ console.log(addNum()); // 2
   - 요리법 사용 (고차 함수 사용)
     - 간계밥 요리법처럼 `add`함수를 이용한 고차 함수
     - 김볶밥 요리법처럼 `multiply`함수를 이용한 고차 함수<br/>
+    
     ```javascript
     const addRecipe = handleMakeRecipe(add);
     const multiplyRecipe = handleMakeRecipe(multiply);
