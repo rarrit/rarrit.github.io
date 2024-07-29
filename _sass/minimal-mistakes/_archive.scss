@@ -90,6 +90,7 @@
   .entries-home {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     gap: 20px;
     .list__item {
       .archive__item__single {
