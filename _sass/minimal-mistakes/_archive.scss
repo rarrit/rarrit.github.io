@@ -119,11 +119,12 @@
           .page__taxonomy {
             margin: 0 0 20px;
             > span {
-              display: flex;
+              display: flex;              
               flex-direction: column;
               gap: 5px;
               > span {
                 display: flex;
+                flex-wrap: wrap;
                 align-items: center;
                 gap: 5px;
                 font-size: 12px;
@@ -281,13 +282,14 @@
 
 
 .archive__subtitle {
-  display: inline-block;
-  font-size: $type-size-5;
-  color: $muted-text-color;  
-  background: #8981dc;
-  border-radius: 10px 25px 10px 10px;
+  display: flex;
+  font-size: 1em;
+  color: #eee;
+  border-bottom: 3px solid #439eff !important;
+  border-left: 3px solid #439eff !important;
+  border-radius: 10px 5px 10px 10px;
   margin: 0 0 15px;
-  padding: 15px 40px 15px 15px;
+  padding: 10px 40px 10px 15px;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
