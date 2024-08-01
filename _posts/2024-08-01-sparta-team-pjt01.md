@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - til
   - js
+  - mini project
 tags:
   - mini project
   - fetch
