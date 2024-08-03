@@ -1,6 +1,6 @@
 ---
 title: "API 로컬 스토리지와 세션 스토리지"
-date: 2024-07-23
+date: 2024-08-03
 layout: single
 toc: true
 toc_label: "목차"
