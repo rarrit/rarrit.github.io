@@ -18,6 +18,10 @@ tags:
 author_profile: true
 sidebar_main: true
 ---
+![sparta-team-pct-01](https://github.com/user-attachments/assets/02cfdbcb-3c6c-44dc-b8ce-70dd16e2d163)
+<br/>
+![sparta-team-pct-02](https://github.com/user-attachments/assets/3af1d375-c11c-4d58-9bc4-ede8607a7ce0)
+
 
 ## :ledger: JavaScript으로 영화 검색 사이트를 제작해보자!
 스파르타 코딩클럽 본 캠프 JavaScript 팀 과제 입니다.
