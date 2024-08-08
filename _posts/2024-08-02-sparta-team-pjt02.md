@@ -280,3 +280,7 @@ async function handleLoginChk() {
   - 리스트 좋아요 갯수 노출
 - 마이페이지
   - 리스트(3가지) 별 데이터 값 출력
+
+#### :pushpin: 링크
+- **깃헙 링크**: [Moview](https://github.com/sHyunis/Moview)
+- **적용 화면**: [https://shyunis.github.io/Moview/index.html](https://shyunis.github.io/Moview/index.html)

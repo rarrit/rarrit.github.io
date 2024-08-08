@@ -250,3 +250,7 @@ async function handleLikeAdd(id, likeImg, likeTitle, likeOverView) {
   - 좋아요 리스트 출력
 - 상세페이지
   - 좋아요 기능 적용
+
+#### :pushpin: 링크
+- **깃헙 링크**: [Moview](https://github.com/sHyunis/Moview)
+- **적용 화면**: [https://shyunis.github.io/Moview/index.html](https://shyunis.github.io/Moview/index.html)

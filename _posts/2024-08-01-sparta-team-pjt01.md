@@ -184,3 +184,7 @@ btnLanguageEn.addEventListener("click", () => changeMovieLang('en'));
 - 즐겨찾기(좋아요) 기능
   - 즐겨찾기 클릭 시 마이페이지에 추가
   - 리스트 좋아요 갯수 노출
+
+#### :pushpin: 링크
+- **깃헙 링크**: [Moview](https://github.com/sHyunis/Moview)
+- **적용 화면**: [https://shyunis.github.io/Moview/index.html](https://shyunis.github.io/Moview/index.html)
