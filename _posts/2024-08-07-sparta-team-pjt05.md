@@ -86,6 +86,7 @@ sidebar_main: true
   - 이후 현재 시간의 값이 DB에 있을 경우 없을 경우를 판별하여 값을 저장 및 업데이트를 해주었다.
     - 값이 없을 경우 `const docs` 즉, DB에 저장할 변수에  `movie_like_time: movieLikeTime,`를 담아주어 `addDoc`을 통해 DB에 저장
     - 값이 있을 경우 `await updateDoc(docRef, { like: newLikeState, movie_like_time: movieLikeTime });` 통해 현재 시간을 업데이트 해주었다.
+
 ```javascript
 // like.js
 
