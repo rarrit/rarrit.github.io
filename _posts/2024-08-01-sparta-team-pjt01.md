@@ -193,7 +193,7 @@ btnLanguageEn.addEventListener("click", () => changeMovieLang('en'));
 - **깃헙 링크**: [Moview](https://github.com/sHyunis/Moview)
 - **적용 화면**: [https://shyunis.github.io/Moview/index.html](https://shyunis.github.io/Moview/index.html)
 
-#### :pushpin: JavaScript 영화 검색 사이트 팀 프로젝트 글 모음
+#### :pushpin: [Mini Project] 영화 검색 사이트 팀 프로젝트 글 모음
 - [JavaScript 영화 검색 사이트 팀 프로젝트 (1차)](https://rarrit.github.io/til/js/api/mini/sparta-team-pjt01/)
 - [JavaScript 영화 검색 사이트 팀 프로젝트 (2차)](https://rarrit.github.io/til/js/api/mini/sparta-team-pjt02/)
 - [JavaScript 영화 검색 사이트 팀 프로젝트 (3차)](https://rarrit.github.io/til/js/api/mini/sparta-team-pjt03/)

@@ -256,7 +256,7 @@ tabs.forEach((target) => {
 - **화면 링크**: [https://rarrit.github.io/TIL/Project/carouselSlide/](https://rarrit.github.io/TIL/Project/carouselSlide/)
 
 
-#### :pushpin: JavaScript 슬라이드 제작 및 회고 글
+#### :pushpin: [Mini Project] 슬라이드 제작 및 회고 글
 - [JavaScript 슬라이드 제작 및 회고 (1차)](https://rarrit.github.io/mini/til/js/make-carousel01/)
 - [JavaScript 슬라이드 제작 및 회고 (2차)](https://rarrit.github.io/mini/til/js/make-carousel02/)
 - [JavaScript 슬라이드 제작 및 회고 (3차)](https://rarrit.github.io/mini/til/js/make-carousel03/)

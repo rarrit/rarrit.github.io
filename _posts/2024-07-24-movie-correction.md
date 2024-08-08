@@ -285,7 +285,7 @@ sidebar_main: true
 - **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
 - **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
 
-#### :pushpin: JavaScript 영화 검색 사이트 제작 및 풀이 과정 글
+#### :pushpin: [Mini Project] 영화 검색 사이트 제작 및 풀이 과정 글
 - [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (1차)](https://rarrit.github.io/til/js/api/mini/movie-correction01/)
 - [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (2차)](https://rarrit.github.io/til/js/api/mini/movie-correction02/)
 - [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (3차)](https://rarrit.github.io/til/js/api/mini/movie-correction03/)
