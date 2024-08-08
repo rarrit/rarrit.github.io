@@ -233,11 +233,16 @@ sidebar_main: true
 개인적으로 슬라이드를 구현할 때 `swiper`와 `slick` 등 라이브러리를 사용하며 직접 만드는 것을 쉽게 생각했는데 생각보다 고려해야될 부분도 많고 절대 쉽지 않았다고 느꼈..<br/>
 사실 3차까지 작업하면서 깔끔하게 코드를 짯냐고 물어보면 당연히 `아니..ㅎㅎ`라고 할 거지만 만들면서 배운것도 많고 자바스크립트를 공부한다면 꼭 한번쯤 제작해보라고 추천하고 싶다.
 
-#### :pushpin: 적용한 코드
+#### :pushpin: 다음글 목표
+1. 제작 2차 과정은 코드리팩토링을 진행한 경험을 작성해 볼 예정입니다!
 
+
+#### :pushpin: 링크
 - **깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/carouselSlide](https://github.com/rarrit/TIL/tree/main/Project/carouselSlide)
 - **화면 링크**: [https://rarrit.github.io/TIL/Project/carouselSlide/](https://rarrit.github.io/TIL/Project/carouselSlide/)
 
-#### :pushpin: 다음글 목표
 
-1. 제작 2차 과정은 코드리팩토링을 진행한 경험을 작성해 볼 예정입니다!
+#### :pushpin: JavaScript 슬라이드 제작 및 회고 글
+- [JavaScript 슬라이드 제작 및 회고 (1차)](https://rarrit.github.io/mini/til/js/make-carousel01/)
+- [JavaScript 슬라이드 제작 및 회고 (2차)](https://rarrit.github.io/mini/til/js/make-carousel02/)
+- [JavaScript 슬라이드 제작 및 회고 (3차)](https://rarrit.github.io/mini/til/js/make-carousel03/)

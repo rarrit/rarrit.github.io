@@ -333,11 +333,6 @@ sidebar_main: true
 3. `handleMovieRender`함수도 이번 2차에서 생성된 함수인데, 기존에 `createMovieHtml` 함수 내에서 처리할 수 있었지만, 추후 슬라이드 기능까지 고려를 했던터라 좀 더 유지보수가 쉽게 따로 분리를 해주었다.
 4. `hanldeMovieFindRender`함수는 input의 value값을 어떻게 전달해줄 까 고민하다 이벤트내에서 매개변수로 `inputVal`을 전달하기 위해 생성했다.  
 
-
-#### :pushpin: 적용한 코드
-- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
-- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
-
 ### :fire: 마무리
 1차에서 기획,디자인,퍼블을 진행 후 화면에 출력하면서 코드가 단순했지만, 2차를 진행하면서 검색 기능이 추가되어 대부분의 핵심 코드가 변경되었다.<br/><br/>
 진행하면서 막혔던 부분이 어떻게 input의 value값을 전달하고 그 함수는 movie 데이터를 전달받는지, 그렇다면 전달 후에 어떻게 검색한 데이터를 가져와서 화면에 출력하는지 산넘어 산이었다. 고민이 길어지던 중 튜터님께 질문을 하게 되었고, 튜터님이 친절하게 알려주었지만 자리로 돌아왔을 때 사실 기억이 많이 않났엇다. 그러나 추천해줬던 부분이 기능을 만들기 전에 순서에 대해 작성을 한번 해보고 진행해보라하셨는데 정말 크게 도움이 되었다.<br/><br/>
@@ -345,3 +340,12 @@ sidebar_main: true
 
 #### :pushpin: 추가 적용 예정
 - [선택사항] 최상단 배너 슬라이드 적용
+
+#### :pushpin: 링크
+- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
+- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
+
+#### :pushpin: JavaScript 영화 검색 사이트 제작 및 풀이 과정 글
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (1차)](https://rarrit.github.io/til/js/api/mini/movie-correction01/)
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (2차)](https://rarrit.github.io/til/js/api/mini/movie-correction02/)
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (3차)](https://rarrit.github.io/til/js/api/mini/movie-correction03/)

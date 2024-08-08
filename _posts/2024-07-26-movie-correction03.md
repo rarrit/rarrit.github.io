@@ -495,11 +495,6 @@ sidebar_main: true
 2. 그리고 `slide.js`에서 기존에 만들었던 슬라이드 함수를 가져와서 사용했는데, 정~말 어려웠다. 왜냐하면 슬라이드 함수는 데이터 값을 고려하지 않고 만들어서 초기화 함수도 없었고 함수내에 있는 함수가 전역으로 사용되지 못해서 값을 넘겨야할 함수는 전역으로 선언 후 `handleSlideStart`함수에서 함수 표현식으로 작성했다. 이 과정이 글로 쓰니 짧았지만 문제를 해결하는 방법을 몰랐어서 `movies`의 매개변수를 전달받아 함수내에서 처리해보고 `fetch`내에서 if문으로 처리했는데 그 과정에서 너무 오랜 시간이 걸렸다.
 3. [2]번 과정을 조금 더 자세하게 생각해보면, 첫 로딩 시 실행되는 `handleSlideStart`의 함수 내에서 마우스 이벤트 관련 함수들이 있어서, fetch를 통해 데이터를 다시 전달받고 슬라이드를 초기화 해줘도 이벤트는 실행이 되었었다. 그렇기에 슬라이드가 1개여도 마우스 드래그, 클릭 기능이 실행되어 전역으로 설정 후 `slideReset` 함수에서 `removeEventListener`를 사용해 이벤트를 중지해주었다.
 
-
-#### :pushpin: 적용한 코드
-- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
-- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
-
 ### :fire: 마무리
 이번 슬라이드 적용까지 개인적으로 목표했던 기능은 전부 적용했으며, 그 과정에서 개선해야될 부분과 소감을 작성해보았다.
 
@@ -516,3 +511,12 @@ sidebar_main: true
 
 #### :pushpin: 추가 적용 예정
 - [선택사항] 최상단 배너 슬라이드 적용
+
+#### :pushpin: 링크
+- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
+- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
+
+#### :pushpin: JavaScript 영화 검색 사이트 제작 및 풀이 과정 글
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (1차)](https://rarrit.github.io/til/js/api/mini/movie-correction01/)
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (2차)](https://rarrit.github.io/til/js/api/mini/movie-correction02/)
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (3차)](https://rarrit.github.io/til/js/api/mini/movie-correction03/)

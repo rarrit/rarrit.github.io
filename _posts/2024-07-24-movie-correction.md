@@ -251,11 +251,6 @@ sidebar_main: true
 - `forEach`문을 사용해서 각 리스트에 마우스를 올릴 경우 마우스 올린 요소만 `curr` 클래스가 적용되게 함
 - `curr` 클래스에 맞춰 css로 애니메이션 효과를 적용해줌
 
-
-#### :pushpin: 적용한 코드
-- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
-- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
-
 ### :fire: 마무리
 1차 작업은 전체적인 디자인, 퍼블리싱과 데이터를 뿌려주는 것 까지 완료했다. 2차 구현 예정 사항은 아래에 리스트 형식으로 정리해봤다.<br/>
 지난번 7조 미니프로젝트 작업 당시 fetch를 사용하지 않아서 조금 걱정스러웠는데, 처음 이미지 src값에서 헷갈려서 시간을 소요한거 치곤 나머지는 순조로웠다.<br/>
@@ -285,3 +280,12 @@ sidebar_main: true
 5. [선택사항] 키보드 enter키를 입력해도 검색버튼 클릭한 것과 동일하게 검색 실행시키기
 6. [선택사항] 최상단 배너 슬라이드 적용
 7. [선택사항] 검색결과에 따라 표시되는 부분 고민 후 반영
+
+#### :pushpin: 링크
+- **깃헙 링크**: [TopRatedMovies](https://github.com/rarrit/TIL/tree/main/Project/TopRatedMovies)
+- **적용 화면**: [https://rarrit.github.io/TIL/Project/TopRatedMovies/](https://rarrit.github.io/TIL/Project/TopRatedMovies/)
+
+#### :pushpin: JavaScript 영화 검색 사이트 제작 및 풀이 과정 글
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (1차)](https://rarrit.github.io/til/js/api/mini/movie-correction01/)
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (2차)](https://rarrit.github.io/til/js/api/mini/movie-correction02/)
+- [JavaScript 영화 검색 사이트 제작 및 풀이 과정 (3차)](https://rarrit.github.io/til/js/api/mini/movie-correction03/)

@@ -247,10 +247,16 @@ tabs.forEach((target) => {
 
 #### :pushpin: 프로젝트 "뭐야?" 링크
 
-- 완성 프로젝트 url: [https://dev-rjw.github.io/LuckyVicky/](https://dev-rjw.github.io/LuckyVicky/)
-- 프로젝트 소개: [https://github.com/dev-rjw/LuckyVicky](https://github.com/dev-rjw/LuckyVicky)
+- ***프로젝트 소개***: [https://github.com/dev-rjw/LuckyVicky](https://github.com/dev-rjw/LuckyVicky)
+- ***완성 프로젝트 화면***: [https://dev-rjw.github.io/LuckyVicky/](https://dev-rjw.github.io/LuckyVicky/)
 
-#### :pushpin: 적용한 코드
+#### :pushpin: 링크
 
 - **깃헙 링크**: [https://github.com/rarrit/TIL/tree/main/Project/carouselSlide](https://github.com/rarrit/TIL/tree/main/Project/carouselSlide)
 - **화면 링크**: [https://rarrit.github.io/TIL/Project/carouselSlide/](https://rarrit.github.io/TIL/Project/carouselSlide/)
+
+
+#### :pushpin: JavaScript 슬라이드 제작 및 회고 글
+- [JavaScript 슬라이드 제작 및 회고 (1차)](https://rarrit.github.io/mini/til/js/make-carousel01/)
+- [JavaScript 슬라이드 제작 및 회고 (2차)](https://rarrit.github.io/mini/til/js/make-carousel02/)
+- [JavaScript 슬라이드 제작 및 회고 (3차)](https://rarrit.github.io/mini/til/js/make-carousel03/)
