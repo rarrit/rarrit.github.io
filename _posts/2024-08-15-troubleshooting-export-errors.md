@@ -1,6 +1,6 @@
 ---
 title: "export default와 export const의 차이점 및 오류 해결 과정"
-date: 2024-08-15
+date: 2024-08-14
 layout: single
 toc: true
 toc_label: "목차"
@@ -16,7 +16,7 @@ sidebar_main: true
 ---
 
 ## :ledger: export default 와 export const 
-오늘 리액트 CRUD를 구현하며 컴포넌트를 import 하는 과정에서 겪었던 에러 해결 과정을 정리해보겠다.
+리액트 CRUD를 구현하며 컴포넌트를 import 하는 과정에서 겪었던 에러 해결 과정을 정리해보겠다.
 
 ### :one: 개요
 JavaScript의 `export default`와 `export const`는 모듈을 내보낼 때 사용되는 두 가지 주요 방법인데 이 차이점을 모르고 `export const`를 사용했다가 발생했던 에러이다.
