@@ -36,6 +36,7 @@ State는 아무래도 동적으로 변하는 데이터를 저장하고 업데이
 - useState를 사용하려면 해당 컴포넌트 내 상단에 `import {useState} from 'react'`를 작성해줘야한다.
 - 아래의 코드에서 `useState(0)`은 `count`의 초기 상태를 `0`으로 설정한다.
 - 버튼을 클릭(onClick)할 때 마다 <u>setState</u>인 `setCount`함수를 사용하여 `count`를 1씩 증가시키고 해당 컴포넌트는 `count`의 값을 반영하여 다시 재랜더링한다.
+
 ```jsx
 import { useState } from 'react'
 
@@ -67,6 +68,7 @@ const [child, setChild] = useState(["child 1", "child 2"]); // 배열
 ### :five: State 업데이트 규칙
 #### :pushpin: 5-1) 상태 불변성 유지
 상태를 업데이트할 때는 기존 상태를 직접 변경하지 않고, <u>새로운 상태를 만들</u>어야 한다. 이는 리액트가 상태 변경을 감지하고 올바르게 업데이트 할 수 있도록 함
+
 ```jsx
 const [user, setUser] = userState({ name: 'rarrit', age: 30});
 // 불변성 유지
