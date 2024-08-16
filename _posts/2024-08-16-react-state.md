@@ -88,6 +88,7 @@ user.age = 31;
 
 3. 그래서 어떻게 함수를 전달해?
   - 이전 상태값에 의존하여 상태를 업데이트를 하려면 setState에 함수를 전달하고 그 함수는 이전 상태를 인자로 받아 새로운 상태를 반환한다. 이렇게 해야하는 이유는 아래와 같다.
+
 ```jsx
 const [count, setCount] = useState(0);
 // 리액트의 상태 업데이트는 비동기적이기 때문에 아래의 코드에서 두 번 호출해도 씩식 증가함
@@ -102,6 +103,7 @@ function handleCountAdd(){
   setCount(prevCount => prevCount + 1);
 }
 ```
+
 ### :six: State와 Props의 차이
 - `props`
   - 부모 컴포넌트로부터 전달되는 <u>읽기 전용 데이터</u>이며, 자식 컴포넌트는 이를 변경할 수 없음
@@ -110,6 +112,7 @@ function handleCountAdd(){
 
 ### :seven: State의 비동기적 특성
 5-3)의 함수를 전달하는 방법에서 알아봤듯이 리액트의 `state`는 ***비동기***적으로 이루어지므로, 리액트는 여러 상태 업데이트를 모아서 한번에 처리하기 위해(최적화) 때문이다. 그래서 상태가 업데이트 직후에 상태값을 확인하면 예상과 다를 수 있음. 상태 업데이트가 완료된 후에 값을 확인하려면 `useEffect`훅을 사용할 수 있음
+
 ```jsx
 function Counter() {
   const [count, setCount] = useState(0);
