@@ -17,15 +17,6 @@ author_profile: true
 sidebar_main: true
 ---
 
-css-in-js
-공식문서를 보면 css for the <component> age 즉 css를 꾸미기 위한 컴포넌트라 되어있음
-1. 설치방법 터미널: yarn add styled-components
-2. 브이에스코드 익스텐션(마켓) - vscode-styled-components 설치
-3. app에서 `import styled from "styled-components";`
-4. const 컴포넌트명 = styled.태그`style 작성`;
-
-
-
 ## :ledger: 리액트의 Styled Components에 대해 알아보자!
 숙련 주차에 오면서 가장 먼저 배운 React의 Styled Components! 강의를 보고 정말 자바스크립트로 다 해먹겠다란 강력한 의지가 보여서 신박했다.
 
