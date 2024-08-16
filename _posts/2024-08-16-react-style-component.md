@@ -21,7 +21,7 @@ sidebar_main: true
 숙련 주차에 오면서 가장 먼저 배운 React의 Styled Components! 강의를 보고 정말 자바스크립트로 다 해먹겠다란 강력한 의지가 보여서 신박했다.
 
 ### :one: Styled Components란?
-자바스크립트에서 CSS를 작성할 수 있도록 해주는 라이브러리이며 이를 통해 스타일 정의를 컴포넌트 내부에 포함시키고 각각의 컴포넌트가 고유한 스타일을 가질 수 있다. 리액트의 Styled Components를 알아보기 위해 공식문서를 보면 <u>css for the `<component>` age</u> 즉 css를 꾸미기 위한 컴포넌트라 되어있음. 
+자바스크립트에서 CSS를 작성할 수 있도록 해주는 라이브러리이며 이를 통해 스타일 정의를 컴포넌트 내부에 포함시키고 각각의 컴포넌트가 고유한 스타일을 가질 수 있다. 리액트의 Styled Components를 알아보기 위해 공식문서를 보면 css for the `<component>` age 즉 css를 꾸미기 위한 컴포넌트라 되어있음. 
 
 ### :two: Styled Components 설치
 VSCode를 사용한다면 styled-components를 편하게 사용하기 위해 마켓플레이스에서 `vscode-styled-components`를 다운받는다.
@@ -189,7 +189,7 @@ export default App;
    - ***동적 스타일링*** : 자바스크립트와 Props를 활용하여 동적으로 스타일을 변경 가능함
    - ***고유 클래스명 생성*** : 자동으로 고유한 클래스명을 생성하여, 전역 네임스페이스의 충돌을 방지해줌
 
-#### :pushipin: 5-3) 결론
+#### :pushpin: 5-3) 결론
 - SCSS는 기존 CSS 관리 방식에 확장된 기능을 제공하고 정적인 스타일 관리에 강함
 - Styled Components는 리액트와 같은 컴포넌트 기반 개발에서 스타일링을 직관적이고 효율적이게 관리해줌
 
