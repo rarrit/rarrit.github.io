@@ -12,6 +12,7 @@ categories:
 tags:
   - react
   - state
+  - react hooks
 author_profile: true
 sidebar_main: true
 ---
