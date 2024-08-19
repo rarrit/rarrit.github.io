@@ -43,7 +43,7 @@ sidebar_main: true
 
 `useRef`는 초기값을 설정할 수 있으며, 이 초기값은 `useRef`가 반환하는 객체의 `current`속성에 저장함.
 
-#### :pushpin: 3-1) 기본 사용법
+#### :pushpin: 4-1) 기본 사용법
 
 아래의 코드에서 `useRef`는 Input 요소에 대한 참조를 생성하고 버튼을 클릭했을 때 `inputRef.current`를 통해 input요소에 포커스를 설정함
 
@@ -69,7 +69,7 @@ function 컴포넌트임() {
 }
 ```
 
-#### :pushpin: 3-2) 렌더링시 값 유지
+#### :pushpin: 4-2) 렌더링시 값 유지
 
 `userRef`를 사용해 `count`를 관리하며, 값이 변경되더라도 컴포넌트는 재렌더링되지 않음. 하지만 `renderCount`는 `useState`로 관리되어 값이 변경될때 마다 컴포넌트가 재렌더링됨
 
@@ -97,9 +97,9 @@ const Counter = () => {
 };
 ```
 
-### :four: useRef 장단점
+### :five: useRef 장단점
 
-#### :pushpin: 4-1) 장점
+#### :pushpin: 5-1) 장점
 
 - **_DOM 조작_**
   - 간편하게 DOM 요소에 접근, 조작이 가능함
