@@ -162,6 +162,8 @@ export default Detail;
 3. props를 통해 전달받은 pokemonList의 pokemon.id와 현재 `useParams`의 id값을 비교하여 선택된 포켓몬이 있는지 확인 후 해당 객체를 변수(`selectPokemon`)에 담아줌
 4. 변수에 담아준 포켓몬을 출력해줌
 
+![dynamic route example image](https://github.com/user-attachments/assets/7e489ec3-ca7a-4225-ab82-98ab9eaaa62f)
+
 ### :fire: 마무리
 
 리액트의 동적 라우팅인 `Dynamic Route`를 사용해보았다. 예전부터 상세페이지가 많을 경우 어떻게 처리했는지 궁금했었는데, 강의를 볼 때와 내가 작업하고 있는 파일 구조가 달라서 조금 어려움도 있었으나 정상적으로 구현된것을 보니 뿌듯했다.
