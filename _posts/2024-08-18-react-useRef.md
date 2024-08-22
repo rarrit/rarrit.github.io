@@ -97,6 +97,76 @@ const Counter = () => {
 };
 ```
 
+#### :pushpin: 4-3) 예제 1: 화면 렌더링 시 input에 focus 주기
+
+- `idRef = useRef(null)` 초기값을 null로 적용
+- `<input ref={isRef} />` 설정하여, 해당 Input이 `idRef`에 연동되도록함
+  - 즉, `idRef.current`는 해당 `<input>` 요소를 가르키게 됨
+- `useEffect`를 사용하여 컴포넌트가 처음 렌더링 된 후 `idRef.current.focus()`를 호출함
+  - `if`문을 통해 isRef.current가 DOM 요소를 참조하는지 확인
+  - `useEffect`의 두 번째 인자에는 `[]`빈배열로 설정하여 첫 렌더링일 때만 실행되도록함
+
+```jsx
+// useRef 사용하여 포커싱 주기
+const Login = () => {
+  // 초기값을 null로 지정
+  const idRef = useRef(null);
+
+  useEffect(() => {
+    if (idRef.current) {
+      // isRef.current 가 DOM 요소를 참조하는지 확인, DOM이 렌더되기 전엔 null임
+      idRef.current.focus();
+    }
+  }, []); // 렌더링되면 한 번만 작동됨
+
+  return (
+    <>
+      <InputForm>
+        <InputBox>
+          <dt>아이디</dt>
+          <dd>
+            <input type="text" ref={idRef} />
+          </dd>
+        </InputBox>
+        <InputBox>
+          <dt>비밀번호</dt>
+          <dd>
+            <input type="password" />
+          </dd>
+        </InputBox>
+      </InputForm>
+    </>
+  );
+};
+```
+
+#### :pushpin: 4-3) 예제 2: id 10자리 입력 시 password로 focus 주기
+
+- id의 value 값을 담아주기 위해 `useState` 사용
+- password에 focus를 주기위해 `pwRef` 설정
+- `focusInputHandler`를 통해 id value에 값을 상태에 업데이트해줌
+- `useEffect`에서 `if`문으로 처리되는 이유는 DOM이 렌더링 된 이후에 작업이 수행되어야 하기 때문임
+  - 두 번째 인자에 [inputId] 값을 넣어 상태가 업데이트될 때 마다 판별하여 수행함
+
+```jsx
+// input value 상태 값을 저장하기 위해 선언함
+const [inputId, setInputId] = useState("");
+
+// [A] useRef 사용하여 포커싱 주기
+const idRef = useRef(null);
+const pwRef = useRef(null);
+
+const focusInputHandler = (e) => {
+  setInputId(e.target.value);
+};
+
+useEffect(() => {
+  if (inputId.length >= 10) {
+    pwRef.current.focus();
+  }
+}, [inputId]);
+```
+
 ### :five: useRef 장단점
 
 #### :pushpin: 5-1) 장점
