@@ -32,11 +32,17 @@ sidebar_main: true
 
 `Context`는 리액트에서 <u>전역 상태를 관리하기 위한 도구</u>이며 일반적으로 상태를 관리할 때는 부모 컴포넌트에서 자식 컴포넌트로 `props`를 통해 데이터를 전달하지만 이 방식은 컴포넌트 트리가 깊어질수록(prop drilling) 복잡해진다. `Context`를 사용하면 컴포넌트 트리에서 특정 데이터를 전역적으로 관리할 수 잇음
 
+#### :pushpin: 1-2) context API 필수 개념
+
+- `createContext` : context 생성
+- `useContext` : context를 구독하고 해당 context의 현재 값을 읽음
+- `Provider` : context를 하위 컴포넌트에게 전달함
+
 ### :two: useContext는 언제 사용함?
 
 - **_전역 상태 관리_**
   - 애플리케이션의 전역 상태를 관리할 때 유용함.
-- **_프롭스 드릴링 ㅂㅂ_**
+- **_프롭 드릴링 ㅂㅂ_**
   - 중첩된 컴포넌트들 사이에서 데이터를 전달해야 할 때, `useContext`를 사용하면 중간에 있는 컴포넌트들이 `props`로 데이터를 전달할 필요 없이 간단하게 구현이 가능함
 
 ### :three: useContext의 사용법
@@ -45,7 +51,7 @@ sidebar_main: true
 
 `useContext`를 사용하기 위해선 먼저 `Context`객체를 생성해야함 그 후 `Context`를 제공(`Provider`)하고, 자식 컴포넌트에서 `useContext`훅을 사용해 `Context`값을 가져옴 아래의 순서를 살펴보자.
 
-1. Context 생성
+- Context 생성
 
 ```jsx
 const FirstContext = createContext();
@@ -61,7 +67,7 @@ const FirstProvider({ children }) {
 }
 ```
 
-2. Context 사용
+- Context 사용
 
 ```jsx
 function 컴포넌트임() {
