@@ -25,7 +25,7 @@ context API 와 Router hook을 사용하던 중 발생한 에러와 주의해야
 
 ### :one: 개요
 
-이번에 state prop으로 프로젝트를 진행 후 context API를 사용하여 리팩토링을 진행하던 중 router hook을 사용하게 되었다. `useNavigate()`를 사용하여, path값과 선택된 데이터의 상태값을 전달하는 과정에만 사용했지만 이후 복습하던 중 `useNavigate`도 context에서 관리해서 재사용 가능하게 사용하면 어떨까란 생각에 테스트 중 에러를 겪게 되었다.
+이번에 prop drilling으로 프로젝트를 진행 후 context API를 사용하여 리팩토링을 진행하던 중 router hook을 사용하게 되었다. `useNavigate()`를 사용하여, path값과 선택된 데이터의 상태값을 전달하는 과정에만 사용했지만 이후 복습하던 중 `useNavigate`도 context에서 관리해서 재사용 가능하게 사용하면 어떨까란 생각에 테스트 중 에러를 겪게 되었다.
 
 ### :two: Router 훅은 Router 컴포넌트 내에서만 사용할 수 있다.
 
