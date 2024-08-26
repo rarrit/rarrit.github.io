@@ -1,6 +1,6 @@
 ---
 title: "React 포켓몬 도감 만들기(리팩토링) 회고"
-date: 2024-08-25
+date: 2024-08-26
 layout: single
 toc: true
 toc_label: "목차"
@@ -20,7 +20,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-# :leader: REACT POKEMON DEX PROJECT
+## :ledger: REACT POKEMON DEX PROJECT
 
 ## :rocket: 베포 링크
 - vercel
