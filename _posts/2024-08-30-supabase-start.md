@@ -1,5 +1,5 @@
 ---
-title: "React에서 Supabase 시작하기 (1), 설치 및 세팅 방법"
+title: "React + Supabase 시작하기 (1), 설치 및 세팅 방법"
 date: 2024-08-30
 layout: single
 toc: true
@@ -15,9 +15,9 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: React에서 Supabase 시작하기
+## :ledger: React + Supabase 시작하기
 
-React에서 사용하는 `Supabase`의 설치 및 세팅 방법입니다.
+리액트에서 `Supabase` 설치 및 세팅 방법입니다.
 
 ### :one: Supabase 가입
 
