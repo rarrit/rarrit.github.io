@@ -7,7 +7,7 @@ toc_label: "목차"
 toc_icon: "align-left"
 toc_sticky: true
 categories:
-  - database
+  - supabase
 tags:
   - supabase
   - database
@@ -32,7 +32,7 @@ React에서 사용하는 `Supabase`의 설치 및 세팅 방법입니다.
 
 본인은 vite로 생성했으며, 프로젝트 생성 후 `supabase`를 추가하고 url,key값을 연결한다.
 
-### :pushipin: 1-1) 프로젝트 설정
+### :pushpin: 1-1) 프로젝트 설정
 
 1. vite 생성: `yarn create vite`
 2. router 추가: `yarn add react-router-dom`
