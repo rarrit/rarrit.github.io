@@ -187,6 +187,8 @@ export default SignIn;
 
 로그아웃 처리는 간단하다. supabase의 메서드인 `signOut`을 사용하여 클릭시 실행하면 된다.
 
+- 자세히 알 고 싶으면 [공식문서](https://supabase.com/docs/guides/auth/signout)를 추천!
+
 #### :pushpin: 5-1) 작성 코드
 
 ```jsx
