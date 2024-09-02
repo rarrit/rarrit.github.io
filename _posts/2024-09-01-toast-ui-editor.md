@@ -130,6 +130,26 @@ const postRegister = () => {
 };
 ```
 
+### :four: Viewer 사용
+
+테스트 중 Viewer 사용하지 않아서 에디터에서 마크다운으로 작성한 부분이 상세 페이지에서 제대로 노출이 되지 않았다. 작성한 데이터를 노출시키려면 아래와 같이 Viewer를 사용하여 적용하면 된다.
+
+```jsx
+// import
+import { Viewer } from "@toast-ui/react-editor";
+import "@toast-ui/editor/dist/toastui-editor-viewer.css";
+
+return (
+  <>
+    {post.description ? (
+      <Viewer initialValue={post.description} />
+    ) : (
+      <p>Loading...</p>
+    )}
+  </>
+);
+```
+
 ![toast ui editor img](https://github.com/user-attachments/assets/b307505c-23a6-4577-a0eb-2a2869610667)
 
 ### :fire: 마무리

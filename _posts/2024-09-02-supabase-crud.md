@@ -151,52 +151,68 @@ const PostRegister = () => {
 2. 상세페이지에서 supabase 메서드를 사용하여, 해당 게시물의 id값과 userId값을 가져와서 바인딩처리해준다.
 
 ```jsx
-// postListItem.jsx
-const handleDetailMove = (post) => {
-  navigate(`/detail/${post.id}`);
-};
+// toast ui editor에서 작성된 내용을 보여주기 위해 Viewer를 사용해야함.
+import { Viewer } from "@toast-ui/react-editor";
+import "@toast-ui/editor/dist/toastui-editor-viewer.css";
 
-// PostDetail.jsx
-useEffect(() => {
-  //게시글 정보
-  const fetchPosts = async () => {
-    const { data, error } = await supabase
-      .from("Post")
-      .select("*")
-      .eq("id", id)
-      .single();
-    console.log(post);
-    if (error) {
-      console.log("error =>", error);
-    } else {
-      console.log("post data =>", data);
-      setPosts(data);
+const PostDetail = () => {
+  // postListItem.jsx
+  const handleDetailMove = (post) => {
+    navigate(`/detail/${post.id}`);
+  };
 
-      // 작성자 정보 로드
-      if (data.userId) {
-        fetchAuthor(data.userId);
+  // PostDetail.jsx
+  useEffect(() => {
+    //게시글 정보
+    const fetchPosts = async () => {
+      const { data, error } = await supabase
+        .from("Post")
+        .select("*")
+        .eq("id", id)
+        .single();
+      console.log(post);
+      if (error) {
+        console.log("error =>", error);
+      } else {
+        console.log("post data =>", data);
+        setPosts(data);
+
+        // 작성자 정보 로드
+        if (data.userId) {
+          fetchAuthor(data.userId);
+        }
       }
-    }
-  };
+    };
 
-  //작성자 정보
-  const fetchAuthor = async (userId) => {
-    const { data, error } = await supabase
-      .from("userinfo")
-      .select("id, created_at, email, username, profileImage")
-      .eq("id", userId)
-      .single();
-    if (error) {
-      console.log("error =>", error);
-    } else {
-      console.log("post data =>", data);
-      setUserInfo(data);
-    }
-  };
+    //작성자 정보
+    const fetchAuthor = async (userId) => {
+      const { data, error } = await supabase
+        .from("userinfo")
+        .select("id, created_at, email, username, profileImage")
+        .eq("id", userId)
+        .single();
+      if (error) {
+        console.log("error =>", error);
+      } else {
+        console.log("post data =>", data);
+        setUserInfo(data);
+      }
+    };
 
-  fetchAuthor();
-  fetchPosts();
-}, [id]);
+    fetchAuthor();
+    fetchPosts();
+  }, [id]);
+
+  return (
+    <>
+      {post.description ? (
+        <Viewer initialValue={post.description} />
+      ) : (
+        <p>Loading...</p>
+      )}
+    </>
+  );
+};
 ```
 
 ### :four: Post 수정
