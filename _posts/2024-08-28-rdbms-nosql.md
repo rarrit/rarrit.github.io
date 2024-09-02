@@ -8,9 +8,9 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - development
-  - database
+  - supabase
 tags:
-  - database
+  - supabase
 author_profile: true
 sidebar_main: true
 ---
