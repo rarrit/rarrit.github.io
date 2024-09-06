@@ -18,6 +18,8 @@ sidebar_main: true
 
 ## :ledger: json-server, fetch를 사용해서 TodoList를 만들어보자.
 
+![json-server-todolist1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e5c3e608-962c-46fc-a90e-76319f40c2a5)
+
 `fetch`, `axios`를 통해 todoList를 만들어보며 json-server와 친해지는 중.
 
 - 작업 코드: [https://github.com/rarrit/json-server-todo](https://github.com/rarrit/json-server-todo)
