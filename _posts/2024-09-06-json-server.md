@@ -69,3 +69,8 @@ yarn json-server db.json --port 4000
 ### :fire: 마무리
 
 `json-server`를 통해 간단하게 가짜 서버를 만들고, 프론트엔드 개발을 독립적으로 진행하는 방법을 알아보았다. 다음 글에서는 `fetch`, `axios`를 사용해서 간단한 todoList를 만들어보며, 좀 더 익숙해져보려 한다.
+
+#### :pushpin: 관련 링크
+
+- [json-sever 친해지기 (1) - fetch를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-todo-fetch/)
+- [json-sever 친해지기 (2) - axios를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-todo-axios/)
