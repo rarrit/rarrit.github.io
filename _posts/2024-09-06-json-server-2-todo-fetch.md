@@ -1,5 +1,5 @@
 ---
-title: "json-sever 친해지기 (1) - fetch를 사용한 TodoList CRUD"
+title: "json-sever + fetch를 사용한 TodoList CRUD"
 date: 2024-09-06
 layout: single
 toc: true
@@ -12,6 +12,7 @@ categories:
   - development
 tags:
   - json-server
+  - fetch
 author_profile: true
 sidebar_main: true
 ---
