@@ -7,9 +7,8 @@ toc_label: "목차"
 toc_icon: "align-left"
 toc_sticky: true
 categories:
-  - api
-  - library
-  - development
+  - react
+  - mini
 tags:
   - json-server
   - fetch

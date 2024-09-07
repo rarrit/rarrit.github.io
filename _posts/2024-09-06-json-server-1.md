@@ -8,7 +8,7 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - api
-  - library
+  - lib
   - development
 tags:
   - json-server
