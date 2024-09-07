@@ -18,7 +18,7 @@ sidebar_main: true
 
 ## :ledger: TanStack Query + json-server를 사용해서 TodoList를 만들어보자.
 
-![json-server-todolist1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e5c3e608-962c-46fc-a90e-76319f40c2a5)
+![Sep-07-202422-16-561-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b6e5038e-0167-433c-bd98-f7f4456d08f5)
 
 - 작업 코드: [https://github.com/rarrit/tanstack-query-todo](https://github.com/rarrit/tanstack-query-todo)
 

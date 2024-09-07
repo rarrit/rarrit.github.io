@@ -208,4 +208,6 @@ return (
 
 `TanStack Query`는 React에서 서버 상태 관리를 간소화하고, 데이터를 효율적으로 캐시하며, 비동기 데이터 처리 로직을 크게 개선해주는 강력한 도구이다. 이를 통해 복잡한 비동기 API 요청 및 상태 관리를 보다 간편하게 만들 수 있으며 특히 여러 컴포넌트에서 동일한 데이터를 재사용하거나, 서버에서 주기적으로 데이터를 갱신해야 할 때 매우 유용하다. 문법에 익숙해지기 위해 TodoList CRUD 만들어 보았는데, 관련 링크를 통해 확인 가능!
 
-#### :pushpin: 관련 링크
+#### :pushpin: 관련 글
+
+- [TanStack Query를 사용한 TodoList CRUD 구현](https://rarrit.github.io/react/mini/tanstack-query-2-todo-list/)
