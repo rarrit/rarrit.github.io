@@ -72,5 +72,5 @@ yarn json-server db.json --port 4000
 
 #### :pushpin: 관련 링크
 
-- [json-sever 친해지기 (1) - fetch를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-todo-fetch/)
-- [json-sever 친해지기 (2) - axios를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-todo-axios/)
+- [json-sever 친해지기 (1) - fetch를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-1-todo-fetch/)
+- [json-sever 친해지기 (2) - axios를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-2-todo-axios/)

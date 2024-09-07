@@ -315,5 +315,5 @@ fetch 뿐만 아니라 axios에서도 `HTTP 메서드`와 headers, body를 사�
 
 #### :pushpin: 관련 링크
 
-- [json-server란 무엇인가?](https://rarrit.github.io/api/library/development/json-server/)
-- [json-sever 친해지기 (2) - axios를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-todo-axios/)
+- [json-server란 무엇인가?](https://rarrit.github.io/api/library/development/json-server-1/)
+- [json-sever 친해지기 (2) - axios를 사용한 TodoList CRUD](https://rarrit.github.io/api/library/development/json-server-3-todo-axios/)
