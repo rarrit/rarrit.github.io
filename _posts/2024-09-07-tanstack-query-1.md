@@ -1,5 +1,5 @@
 ---
-title: "TanStack Query 설치 및 사용 방법"
+title: "TanStack Query란 무엇인가? (설치 및 사용 방법)"
 date: 2024-09-07
 layout: single
 toc: true
