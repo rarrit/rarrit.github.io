@@ -24,16 +24,18 @@ sidebar_main: true
 
 명칭보소.. 일단 정말 길고 이름부터 `dangerously` 위험하고 알려주고있다. 코드에서 HTML을 설정하는 것이 위험에서 쉽게 노출될 수 있어서 그렇다는데, 이름부터 "응 위험한 거임~"이라고 알려주고 있다. 새롭게 생긴 문법 중 `setHTMLUnsafe`이 생긴걸로 [유튜브-제로초](https://www.youtube.com/shorts/rYtl-kVPWwk) 보다 알게 되었는데, 아직 리액트에서 적용하는 방법을 몰라서 `dangerously`를 사용함!
 
-### :two: 사용 방법
+### :two: dangerouslySetInnerHTML 사용 방법
 
 문법은 아래와 같다.
 
 ```jsx
-// p 태그 안에 아무것도 들어가지 않고 아래와 같이 작성하면 됌
-<p dangerouslySetInnerHTML={{__html: }}/>
+// 태그 안에 아무것도 들어가지 않고 아래와 같이 작성하면 됌
+// 마크다운 문법으로 작성하니 {{ _html: }} 이 부분이 사라진다.
+// <p dangerouslySetInnerHTML={{ __html: }}/>
+<p dangerouslySetInnerHTML={{ __html: }}/>
 ```
 
-### :three: 적용 예시
+### :three: dangerouslySetInnerHTML 적용 예시
 
 개인 과제에서 적용한 예시이다.
 
@@ -68,8 +70,12 @@ export const mbtiResult = (mbti) => {
 
 ```
 
-### :fire: 마무리
+### :four: dangerouslySetInnerHTML 위험성
 
 HTML 삽입하는 방법이 XSS공격에 취약하다는 것에 대해 잘 몰랐는데, 구글링 중 직접 공격을 해보면서 알아보는 글이 있어서 흥미롭게 보았다. 해당 글에서는 `dangerouslySetInnerHTML` 이 얼마나 위험한지 경험을 토대로 작성되어있는데, innerHTML을 안전하게 하는 방법 또한 찾아봐야 겟다.
 
 - [XSS 공격을 직접 해보면서 알아가기 - 민동준](https://dj-min43.medium.com/xss-%EA%B3%B5%EA%B2%A9%EC%9D%84-%EC%A7%81%EC%A0%91-%ED%95%B4%EB%B3%B4%EB%A9%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-c2c1d9baf7ec)
+
+### :fire: 마무리
+
+이름부터 위험해보이는 `dangerouslySetInnerHTML`를 사용해서 문제를 해결했지만 찜찜하다. 현재 과제 제출 기한이 급박해서 적용했지만 추후 다른 방법이 어떤게 있는지 찾아봐야겠다.
