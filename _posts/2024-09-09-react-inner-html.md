@@ -1,6 +1,6 @@
 ---
 title: "React에서 템플릿 리터럴 br 적용 (dangerouslySetInnerHtml)"
-date: 2024-08-28
+date: 2024-09-09
 layout: single
 toc: true
 toc_label: "목차"
@@ -11,6 +11,7 @@ categories:
   - react
 tags:
   - react innerhtml
+  - dangerouslySetInnerHtml
 author_profile: true
 sidebar_main: true
 ---
@@ -69,6 +70,6 @@ export const mbtiResult = (mbti) => {
 
 ### :fire: 마무리
 
-HTML 삽입하는 방법이 XSS공격에 취약하다는 것에 대해 잘 몰랐는데, 구글링 중 직접 공격을 해보면서 알아보는 글이 있어서 흥미롭게 보았다. 해당 글에서는 dangerouslySetInnerHTML 이 얼마나 위험한지 경험을 토대로 작성되어있는데, innerHTML을 안전하게 하는 방법 또한 찾아봐야 겟다.
+HTML 삽입하는 방법이 XSS공격에 취약하다는 것에 대해 잘 몰랐는데, 구글링 중 직접 공격을 해보면서 알아보는 글이 있어서 흥미롭게 보았다. 해당 글에서는 `dangerouslySetInnerHTML` 이 얼마나 위험한지 경험을 토대로 작성되어있는데, innerHTML을 안전하게 하는 방법 또한 찾아봐야 겟다.
 
 - [XSS 공격을 직접 해보면서 알아가기 - 민동준](https://dj-min43.medium.com/xss-%EA%B3%B5%EA%B2%A9%EC%9D%84-%EC%A7%81%EC%A0%91-%ED%95%B4%EB%B3%B4%EB%A9%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-c2c1d9baf7ec)
