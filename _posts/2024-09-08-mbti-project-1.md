@@ -15,7 +15,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: REACT SPOON OVERFLOW PROJECT
+## :ledger: REACT MBTI TEST PROJECT
 
 ## :rocket: 베포 링크
 
@@ -123,9 +123,7 @@ sidebar_main: true
 ### :pushpin: 5-1) 레이아웃 및 라우터 설정
 1. 레이아웃
   - Layout.jsx 컴포넌트에서 Header,Footer 및 초기 레이아웃을 설정해줌
-  - <details>
-    <summary>코드보기</summary>
-    ```jsx
+  - ```jsx
       // src/components/Layout.jsx
       import styled from "styled-components"
       import Header from "./header/Header"
@@ -146,13 +144,10 @@ sidebar_main: true
       const StContents = styled.div``
       export default Layout
     ```
-    </details>
 2. 라우터 설정 (Protected Route)
   - 이번 프로젝트에서 회원 여부에 따라 접근 가능한 페이지를 설정하기 위해 `Protected Route`설정을 해주었다.
   - context API를 사용하여 `isLogin` 값으로 라우터 처리 및 메뉴도 로그인 여부에 따라 노출되게 설정했다.
-  - <details>
-    <summary>코드보기</summary>
-    ```jsx
+  - ```jsx
       // src/components/ProtectedRoute.jsx
       import { AuthContext } from '@/context/AuthContext';
       import { useContext } from 'react';
@@ -179,36 +174,32 @@ sidebar_main: true
 
       export default ProtectedRoute;
     ```
-    </details>
 
 ### :pushpin: 5-2) 로그인
 로그인 페이지에서 아이디, 비밀번호를 입력 후 버튼을 클릭했을 때 로그인 처리가 되어야 한다.
 
-- <details>
-  <summary>코드보기</summary>
-  ```jsx
-    const [id, setId] = useState("");
-    const [password, setPassword] = useState("");
-    const navigate = useNavigate();
-    const { login } = useContext(AuthContext);
+```jsx
+const [id, setId] = useState("");
+const [password, setPassword] = useState("");
+const navigate = useNavigate();
+const { login } = useContext(AuthContext);
 
-    const handleLogin = async (e) => {
-      e.preventDefault();
-      try{
-        const loginData = { id, password }
-        const response = await handleUserLogin(loginData);
-        if(response.success){        
-          alert("로그인되었습니다. 메인 페이지로 이동합니다.")
-          login(response.accessToken);
-          navigate("/");
-        }
-      }catch(e){
-        console.log("Login Error =>", e);
-        alert("로그인이 실패했습니다.")
-      }
+const handleLogin = async (e) => {
+  e.preventDefault();
+  try{
+    const loginData = { id, password }
+    const response = await handleUserLogin(loginData);
+    if(response.success){        
+      alert("로그인되었습니다. 메인 페이지로 이동합니다.")
+      login(response.accessToken);
+      navigate("/");
     }
-  ```
-</details>
+  }catch(e){
+    console.log("Login Error =>", e);
+    alert("로그인이 실패했습니다.")
+  }
+}
+```
 
 1. 상태관리
   - `useState`를 사용해서 is,password를 입력받아 저장한다.
@@ -233,36 +224,34 @@ sidebar_main: true
 ### :pushpin: 5-3) 회원가입
 회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
-- <details>
-    <summary>코드보기</summary>
-    ```jsx
-    const [id, setId] = useState("");
-    const [password, setPassword] = useState("");
-    const [nickname, setNickname] = useState("");
-    const navigate = useNavigate();
 
-    const handleJoin = async (e) => {
-      e.preventDefault();
-      try{
-        const joinData = {
-          id,
-          password,
-          nickname
-        }
-        const response = await handleUserRegister(joinData);
-        if(response.success) {
-          alert("회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.")
-          navigate("/login");
-        }else{
-          alert(response.message || "회원가입이 실패했습니다.");
-        }
-      }catch(e){
-        console.log("Join Error =>", e.response || e);
-        alert("회원가입을 실패했습니다.")
-      }
+```jsx
+const [id, setId] = useState("");
+const [password, setPassword] = useState("");
+const [nickname, setNickname] = useState("");
+const navigate = useNavigate();
+
+const handleJoin = async (e) => {
+  e.preventDefault();
+  try{
+    const joinData = {
+      id,
+      password,
+      nickname
     }
-    ```
-  </details>
+    const response = await handleUserRegister(joinData);
+    if(response.success) {
+      alert("회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.")
+      navigate("/login");
+    }else{
+      alert(response.message || "회원가입이 실패했습니다.");
+    }
+  }catch(e){
+    console.log("Join Error =>", e.response || e);
+    alert("회원가입을 실패했습니다.")
+  }
+}
+```
 
 1. 상태관리
   - `useState`를 사용해서 is,password,nickname를 입력받아 저장한다.
@@ -280,36 +269,34 @@ sidebar_main: true
 ### :pushpin: 5-3) 마이페이지
 회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
-- <details>
-    <summary>코드보기</summary>
-    ```jsx
-    const [id, setId] = useState("");
-    const [password, setPassword] = useState("");
-    const [nickname, setNickname] = useState("");
-    const navigate = useNavigate();
 
-    const handleJoin = async (e) => {
-      e.preventDefault();
-      try{
-        const joinData = {
-          id,
-          password,
-          nickname
-        }
-        const response = await handleUserRegister(joinData);
-        if(response.success) {
-          alert("회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.")
-          navigate("/login");
-        }else{
-          alert(response.message || "회원가입이 실패했습니다.");
-        }
-      }catch(e){
-        console.log("Join Error =>", e.response || e);
-        alert("회원가입을 실패했습니다.")
-      }
+```jsx
+const [id, setId] = useState("");
+const [password, setPassword] = useState("");
+const [nickname, setNickname] = useState("");
+const navigate = useNavigate();
+
+const handleJoin = async (e) => {
+  e.preventDefault();
+  try{
+    const joinData = {
+      id,
+      password,
+      nickname
     }
-    ```
-  </details>
+    const response = await handleUserRegister(joinData);
+    if(response.success) {
+      alert("회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.")
+      navigate("/login");
+    }else{
+      alert(response.message || "회원가입이 실패했습니다.");
+    }
+  }catch(e){
+    console.log("Join Error =>", e.response || e);
+    alert("회원가입을 실패했습니다.")
+  }
+}
+```
 
 1. 상태관리
   - useState를 사용하여 사용자가 입력한 아이디, 비밀번호, 닉네임을 각각 id, password, nickname 상태에 저장합니다. 이 상태들은 input 필드의 값과 연결되어 있으며, 사용자가 입력할 때마다 상태가 업데이트됩니다.
