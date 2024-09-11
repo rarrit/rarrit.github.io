@@ -125,7 +125,7 @@ sidebar_main: true
 
 - **레이아웃**
   - Layout.jsx 컴포넌트에서 Header,Footer 및 초기 레이아웃을 설정해줌
-  
+
 ```jsx
   const Layout = ({ children }) => {
     return (
@@ -315,11 +315,16 @@ const handleJoin = async (e) => {
 ## :fire: 회고
 로그인,회원가입,마이페이지까지 개인과제 가이드에 작성된 내용이다. 처음에 복붙을 진행하며 기분이 조금.. 그랬지만 가이드 해준 코드가 아마 내가 안보고 만든 것 보다 더 효율적으로 작성했을 거라 생각해서 코드를 이해하는 방향으로 진행했다. 이후 Tanstack Query의 커스텀 훅으로 변경하고 사용할 예정이다.
 
-## :pushpin: Keep - 현재 만족하고 있는 부분
+### :pushpin: Keep - 현재 만족하고 있는 부분
 가이드로 제공한 코드를 보며 이해가 안되는 부분이 없었다는 것
 
-## :pushpin: Problem - 불편하게 느끼는 부분
+### :pushpin: Problem - 불편하게 느끼는 부분
 복붙 후 이해하기 보다는 직접 만들어보는 게 더 좋았을 거란 걸 알지만 시간에 쫒기며 편함을 택한 나에게 용서를..
 
-## :pushpin: Try - problem에 대한 해결책, 당장 실행 가능한 것
+### :pushpin: Try - problem에 대한 해결책, 당장 실행 가능한 것
 프로젝트가 끝나면 항상 해설영상이 있기에 이번 개인과제 제출 후 안보고 작성하고 해설 영상을 통해 문제점을 찾아볼것이다.
+
+### :pushpin: 관련 글
+- [[1차] 팩트폭행 MBTI 테스트 프로젝트 - 초기 세팅 및 회원 기능](https://rarrit.github.io/react/mini/mbti-project-1/)
+- [[2차] 팩트폭행 MBTI 테스트 프로젝트 - MBTI 테스트 기능 적용](https://rarrit.github.io/react/mini/mbti-project-2/)
+- [[3차] 팩트폭행 MBTI 테스트 프로젝트 - 리팩토링(API,상태 관리)](https://rarrit.github.io/react/mini/mbti-project-3/)

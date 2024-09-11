@@ -370,11 +370,16 @@ const TestResultItem = ({ data, onDelete, onUpdate }) => {
 ## :fire: 회고
 MBTI Test 컴포넌트에서 `Tanstack Query`의 커스텀 훅을 사용해서 기능을 구현해봤다. 이전보다 로직을 훨씬 간결하게 처리할 수 있었고 API 호출 시 데이터 처리 흐름을 더 명확하게 할 수 있었다.
 
-## :pushpin: Keep - 현재 만족하고 있는 부분
+### :pushpin: Keep - 현재 만족하고 있는 부분
 수준별 분반 수업 때 공부한 `Tanstack Query`와 커스텀 훅을 만들어 적용해봤다.
 
-## :pushpin: Problem - 불편하게 느끼는 부분
+### :pushpin: Problem - 불편하게 느끼는 부분
 `TestListItem` 컴포넌트에서 조건부로 처리되는 부분이 많다. 상위 컴포넌트에서 조건부로 처리되어야 할 로직을 작성 후 해당 컴포넌트에서는 props로 전달받아서 사용하는 방식이 복잡하게 느껴졌다. 특히, 로그인한 사용자와 게시물 작성자 간의 조건 처리나, 글의 공개/비공개 여부에 따른 로직이 중첩되어 가독성이 떨어진다. 이러한 로직이 많아질수록 컴포넌트가 지나치게 복잡해지는 문제가 발생했다.
 
-## :pushpin: Try - problem에 대한 해결책, 당장 실행 가능한 것
+### :pushpin: Try - problem에 대한 해결책, 당장 실행 가능한 것
 복잡한 조건부 로직을 상위 컴포넌트에서 처리하기보다, 관련된 조건을 별도 함수로 분리하여 관리할 수 있을 것이다. 예를 들어, '사용자가 해당 글의 작성자인가?', '공개 여부는 어떻게 되는가?' 등의 로직을 함수로 만들어, 각 컴포넌트 내에서 쉽게 재사용할 수 있도록 하는것과 전역 컨텍스트를 활용하여 `TestListItem` 컴포넌트에서 필요한 데이터만 전달받도록 로직을 수정해봐야겠다.
+
+### :pushpin: 관련 글
+- [[1차] 팩트폭행 MBTI 테스트 프로젝트 - 초기 세팅 및 회원 기능](https://rarrit.github.io/react/mini/mbti-project-1/)
+- [[2차] 팩트폭행 MBTI 테스트 프로젝트 - MBTI 테스트 기능 적용](https://rarrit.github.io/react/mini/mbti-project-2/)
+- [[3차] 팩트폭행 MBTI 테스트 프로젝트 - 리팩토링(API,상태 관리)](https://rarrit.github.io/react/mini/mbti-project-3/)

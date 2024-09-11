@@ -336,14 +336,19 @@ const handleJoin = (e) => {
 
 리팩토링을 통해 유저 API와 MBTI API 관련 로직을 명확히 분리하여 각 기능에 맞는 커스텀 훅을 생성하였고, 이로 인해 복잡한 로직을 간결하게 유지할 수 있었다. 중복 코드를 줄이고, 향후 유지보수에도 유리할 것이라 생각하고 특히 팀 프로젝트에서 이러한 구조는 유용할 것 같다고 생각함.
 
-## :pushpin: Keep - 현재 만족하고 있는 부분
+### :pushpin: Keep - 현재 만족하고 있는 부분
 - 중복 코드를 제거함
 - 커스텀 훅을 사용해서 복잡한 로직을 간결하게 처리해봄
 - 코드의 일관성을 유지하고 유지보수가 좀 더 편리하게 수정해봄
 
-## :pushpin: Problem - 불편하게 느끼는 부분
+### :pushpin: Problem - 불편하게 느끼는 부분
 - 문법적으로는 익숙해졌지만 동작 방식에 대해 완벽하게 이해하지 못하는 것 같음
 - 컴포넌트에서는 간결해진 것 같은데, 폴더가 많이 복잡한 것 같음
 
-## :pushpin: Try - problem에 대한 해결책, 당장 실행 가능한 것
+### :pushpin: Try - problem에 대한 해결책, 당장 실행 가능한 것
 - 리팩토링을 통해 효율적으로 관리할 수 있게 된 것 같지만 나의 코드를 처음 보는 사람들 입장에서 조금 더 쉽게 이해할 수 있도록 커스텀 훅과 각 기능별로 문서화를 하면 어떨까란 생각을 해봄
+
+### :pushpin: 관련 글
+- [[1차] 팩트폭행 MBTI 테스트 프로젝트 - 초기 세팅 및 회원 기능](https://rarrit.github.io/react/mini/mbti-project-1/)
+- [[2차] 팩트폭행 MBTI 테스트 프로젝트 - MBTI 테스트 기능 적용](https://rarrit.github.io/react/mini/mbti-project-2/)
+- [[3차] 팩트폭행 MBTI 테스트 프로젝트 - 리팩토링(API,상태 관리)](https://rarrit.github.io/react/mini/mbti-project-3/)
