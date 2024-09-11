@@ -145,6 +145,7 @@ export const QUERY_KEYS = {
 ---
 
 - `mutations.jsx`
+
 ```jsx
 // hooks/mutations.jsx
 export const useDeleteMbti = () => {  
@@ -212,6 +213,7 @@ export const useUpdateProfile = () => {
 ---
 
 - `queries.jsx`
+
 ```jsx
 // hooks/queries.jsx
 import { getUserProfile } from "@/api/authAPI";
@@ -234,6 +236,7 @@ export const useUser = () => useQuery({
 ---
 
 - `Login.jsx`
+
 ```jsx
 // Login.jsx
 
@@ -275,6 +278,7 @@ const handleLogin = (e) => {
 ```
 
 - `Join.jsx`
+
 ```jsx
 // Join.jsx
 
@@ -330,7 +334,7 @@ const handleJoin = (e) => {
 4. 커스텀 훅
   - 복잡한 로직을 각각의 컴포넌트에서 분리하고 상태관리와 API 요청을 이전보다 간결하게 처리함
 
-리팩토링을 통해 유저 API와 MBTI API 관련 로직을 명확히 분리하여 각 기능에 맞는 커스텀 훅을 생성하였고, 이로 인해 복잡한 로직을 간결하게 유지할 수 있었다. 중복 코드를 줄이고, 향후 유지보수에도 유리할 것이라 생각하고 특히 팀 프로젝트에서 이러한 구조는 유용할 것 같다고 생각함
+리팩토링을 통해 유저 API와 MBTI API 관련 로직을 명확히 분리하여 각 기능에 맞는 커스텀 훅을 생성하였고, 이로 인해 복잡한 로직을 간결하게 유지할 수 있었다. 중복 코드를 줄이고, 향후 유지보수에도 유리할 것이라 생각하고 특히 팀 프로젝트에서 이러한 구조는 유용할 것 같다고 생각함.
 
 ## :pushpin: Keep - 현재 만족하고 있는 부분
 - 중복 코드를 제거함
