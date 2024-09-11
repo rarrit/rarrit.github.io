@@ -123,53 +123,56 @@ sidebar_main: true
 ## :five: 작업 목록
 ### :pushpin: 5-1) 레이아웃 및 라우터 설정
 
-1. **레이아웃**
+- **레이아웃**
   - Layout.jsx 컴포넌트에서 Header,Footer 및 초기 레이아웃을 설정해줌
-  ```jsx
-    const Layout = ({ children }) => {
-      return (
-        <StContainer>
-          <Header />
-          <StContents>
-            { children }
-          </StContents>
-          <Footer />
-        </StContainer>
-      )
-    }
-    const StContainer = styled.div``
-    const StContents = styled.div``
-    export default Layout
-  ```
-2. **라우터 설정 (Protected Route)**
+  
+```jsx
+  const Layout = ({ children }) => {
+    return (
+      <StContainer>
+        <Header />
+        <StContents>
+          { children }
+        </StContents>
+        <Footer />
+      </StContainer>
+    )
+  }
+  const StContainer = styled.div``
+  const StContents = styled.div``
+  export default Layout
+```
+
+- **라우터 설정 (Protected Route)**
   - 이번 프로젝트에서 회원 여부에 따라 접근 가능한 페이지를 설정하기 위해 `Protected Route`설정을 해주었다.
   - context API를 사용하여 `isLogin` 값으로 라우터 처리 및 메뉴도 로그인 여부에 따라 노출되게 설정했다.
-  ```jsx
-    import { AuthContext } from '@/context/AuthContext';
-    import { useContext } from 'react';
-    import { Navigate } from 'react-router-dom';
 
-    const ProtectedRoute = ({ children, redirectIsLogin, redirectNotLogin}) => {
-      const { isLogin } = useContext(AuthContext);
+```jsx
+  import { AuthContext } from '@/context/AuthContext';
+  import { useContext } from 'react';
+  import { Navigate } from 'react-router-dom';
 
-      // 로그인된 상태에서 접근할 수 없는 페이지 처리
-      if (isLogin && redirectIsLogin) {    
-        alert("이미 로그인되어 있습니다.");
-        return <Navigate to={redirectIsLogin} />;
-      }
+  const ProtectedRoute = ({ children, redirectIsLogin, redirectNotLogin}) => {
+    const { isLogin } = useContext(AuthContext);
 
-      // 로그인된 상태에서 접근할 수 없는 페이지 처리
-      if (!isLogin && redirectNotLogin) {    
-        alert("로그인이 필요한 페이지입니다.");
-        return <Navigate to={redirectNotLogin} />;
-      }
+    // 로그인된 상태에서 접근할 수 없는 페이지 처리
+    if (isLogin && redirectIsLogin) {    
+      alert("이미 로그인되어 있습니다.");
+      return <Navigate to={redirectIsLogin} />;
+    }
 
-      // 로그인되지 않은 상태에서 접근할 수 없는 페이지 처리
-      return children
-    };
+    // 로그인된 상태에서 접근할 수 없는 페이지 처리
+    if (!isLogin && redirectNotLogin) {    
+      alert("로그인이 필요한 페이지입니다.");
+      return <Navigate to={redirectNotLogin} />;
+    }
 
-    export default ProtectedRoute;
-  ```
+    // 로그인되지 않은 상태에서 접근할 수 없는 페이지 처리
+    return children
+  };
+
+  export default ProtectedRoute;
+```
 
 
 ### :pushpin: 5-2) 로그인
