@@ -17,6 +17,8 @@ sidebar_main: true
 
 ## :ledger: REACT MBTI TEST PROJECT
 
+![1  mbti-test-main](https://github.com/user-attachments/assets/8d85374b-7b5e-4db3-a19a-35bd9fb1f9f5)
+
 ## :rocket: 베포 링크
 
 - vercel
@@ -119,10 +121,7 @@ sidebar_main: true
       - 비공개 선택 시 해당 글은 결과보기 페이지에서 본인만 확인이 가능합니다.
 
 ## :five: 작업 목록
-
 ### :pushpin: 5-1) 레이아웃 및 라우터 설정
-
-![1  mbti-test-main](https://github.com/user-attachments/assets/8d85374b-7b5e-4db3-a19a-35bd9fb1f9f5)
 
 1. 레이아웃
   - Layout.jsx 컴포넌트에서 Header,Footer 및 초기 레이아웃을 설정해줌
@@ -172,11 +171,12 @@ sidebar_main: true
     export default ProtectedRoute;
   ```
 
+
 ### :pushpin: 5-2) 로그인
+로그인 페이지에서 아이디, 비밀번호를 입력 후 버튼을 클릭했을 때 로그인 처리가 되어야 한다.
 
 ![2  mbti-test-login](https://github.com/user-attachments/assets/dcf2d29e-35ca-43cc-acb6-19cd961ac115)
 
-로그인 페이지에서 아이디, 비밀번호를 입력 후 버튼을 클릭했을 때 로그인 처리가 되어야 한다.
 
 ```jsx
 const [id, setId] = useState("");
@@ -222,10 +222,9 @@ const handleLogin = async (e) => {
   - 해당 토큰으로 `login(token)` 실행 시 로컬 스토리지에 토큰 값이 저장되고 현재 로그인상태(`setLogin(true)`)가 변경됨
 
 ### :pushpin: 5-3) 회원가입
+회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
 ![3  main-test-join](https://github.com/user-attachments/assets/0ba69d86-15fd-47b7-b134-a414e07cc298)
-
-회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
 ```jsx
 const [id, setId] = useState("");
@@ -269,10 +268,9 @@ const handleJoin = async (e) => {
 
 
 ### :pushpin: 5-4) 마이페이지
+회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
 ![4  mbti-test-mypage](https://github.com/user-attachments/assets/e728fb08-59f0-47cc-abc1-00c89f4c0ea1)
-
-회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
 ```jsx
 const [id, setId] = useState("");
