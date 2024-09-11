@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - til
   - react
+  - troubleshooting
 tags:
   - react innerhtml
   - dangerouslySetInnerHtml
