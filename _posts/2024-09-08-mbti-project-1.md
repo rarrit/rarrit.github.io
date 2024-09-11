@@ -121,61 +121,61 @@ sidebar_main: true
 ## :five: 작업 목록
 
 ### :pushpin: 5-1) 레이아웃 및 라우터 설정
+
+![1  mbti-test-main](https://github.com/user-attachments/assets/8d85374b-7b5e-4db3-a19a-35bd9fb1f9f5)
+
 1. 레이아웃
   - Layout.jsx 컴포넌트에서 Header,Footer 및 초기 레이아웃을 설정해줌
-  - ```jsx
-      // src/components/Layout.jsx
-      import styled from "styled-components"
-      import Header from "./header/Header"
-      import Footer from "./footer/Footer"
-
-      const Layout = ({ children }) => {
-        return (
-          <StContainer>
-            <Header />
-            <StContents>
-              { children }
-            </StContents>
-            <Footer />
-          </StContainer>
-        )
-      }
-      const StContainer = styled.div``
-      const StContents = styled.div``
-      export default Layout
-    ```
+  ```jsx
+    const Layout = ({ children }) => {
+      return (
+        <StContainer>
+          <Header />
+          <StContents>
+            { children }
+          </StContents>
+          <Footer />
+        </StContainer>
+      )
+    }
+    const StContainer = styled.div``
+    const StContents = styled.div``
+    export default Layout
+  ```
 2. 라우터 설정 (Protected Route)
   - 이번 프로젝트에서 회원 여부에 따라 접근 가능한 페이지를 설정하기 위해 `Protected Route`설정을 해주었다.
   - context API를 사용하여 `isLogin` 값으로 라우터 처리 및 메뉴도 로그인 여부에 따라 노출되게 설정했다.
-  - ```jsx
-      // src/components/ProtectedRoute.jsx
-      import { AuthContext } from '@/context/AuthContext';
-      import { useContext } from 'react';
-      import { Navigate } from 'react-router-dom';
+  ```jsx
+    import { AuthContext } from '@/context/AuthContext';
+    import { useContext } from 'react';
+    import { Navigate } from 'react-router-dom';
 
-      const ProtectedRoute = ({ children, redirectIsLogin, redirectNotLogin}) => {
-        const { isLogin } = useContext(AuthContext);
+    const ProtectedRoute = ({ children, redirectIsLogin, redirectNotLogin}) => {
+      const { isLogin } = useContext(AuthContext);
 
-        // 로그인된 상태에서 접근할 수 없는 페이지 처리
-        if (isLogin && redirectIsLogin) {    
-          alert("이미 로그인되어 있습니다.");
-          return <Navigate to={redirectIsLogin} />;
-        }
+      // 로그인된 상태에서 접근할 수 없는 페이지 처리
+      if (isLogin && redirectIsLogin) {    
+        alert("이미 로그인되어 있습니다.");
+        return <Navigate to={redirectIsLogin} />;
+      }
 
-        // 로그인된 상태에서 접근할 수 없는 페이지 처리
-        if (!isLogin && redirectNotLogin) {    
-          alert("로그인이 필요한 페이지입니다.");
-          return <Navigate to={redirectNotLogin} />;
-        }
+      // 로그인된 상태에서 접근할 수 없는 페이지 처리
+      if (!isLogin && redirectNotLogin) {    
+        alert("로그인이 필요한 페이지입니다.");
+        return <Navigate to={redirectNotLogin} />;
+      }
 
-        // 로그인되지 않은 상태에서 접근할 수 없는 페이지 처리
-        return children
-      };
+      // 로그인되지 않은 상태에서 접근할 수 없는 페이지 처리
+      return children
+    };
 
-      export default ProtectedRoute;
-    ```
+    export default ProtectedRoute;
+  ```
 
 ### :pushpin: 5-2) 로그인
+
+![2  mbti-test-login](https://github.com/user-attachments/assets/dcf2d29e-35ca-43cc-acb6-19cd961ac115)
+
 로그인 페이지에서 아이디, 비밀번호를 입력 후 버튼을 클릭했을 때 로그인 처리가 되어야 한다.
 
 ```jsx
@@ -222,8 +222,10 @@ const handleLogin = async (e) => {
   - 해당 토큰으로 `login(token)` 실행 시 로컬 스토리지에 토큰 값이 저장되고 현재 로그인상태(`setLogin(true)`)가 변경됨
 
 ### :pushpin: 5-3) 회원가입
-회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
+![3  main-test-join](https://github.com/user-attachments/assets/0ba69d86-15fd-47b7-b134-a414e07cc298)
+
+회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
 ```jsx
 const [id, setId] = useState("");
@@ -266,9 +268,11 @@ const handleJoin = async (e) => {
       - 실패 시 에러 메세지 출력 
 
 
-### :pushpin: 5-3) 마이페이지
-회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
+### :pushpin: 5-4) 마이페이지
 
+![4  mbti-test-mypage](https://github.com/user-attachments/assets/e728fb08-59f0-47cc-abc1-00c89f4c0ea1)
+
+회원가입 페이지에서 아이디, 비밀번호. 닉네임를 입력 후 버튼을 클릭했을 때 입력한 데이터가 저장(회원가입) 되어야 한다.
 
 ```jsx
 const [id, setId] = useState("");
