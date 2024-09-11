@@ -23,7 +23,7 @@ sidebar_main: true
 
 ### :one: dangerouslySetInnerHTML 이란?
 
-명칭보소.. 일단 정말 길고 이름부터 `dangerously` 위험하고 알려주고있다. 코드에서 HTML을 설정하는 것이 위험에서 쉽게 노출될 수 있어서 그렇다는데, 이름부터 "응 위험한 거임~"이라고 알려주고 있다. 새롭게 생긴 문법 중 `setHTMLUnsafe`이 생긴걸로 [유튜브-제로초](https://www.youtube.com/shorts/rYtl-kVPWwk) 보다 알게 되었는데, 아직 리액트에서 적용하는 방법을 몰라서 `dangerously`를 사용함!
+명칭보소.. 일단 정말 길고 이름부터 `dangerously` 위험하고 알려주고있다. 코드에서 HTML을 설정하는 것이 위험에서 쉽게 노출될 수 있어서 그렇다는데, 이름부터 "응 위험한 거임~"이라고 알려주고 있다. 새롭게 생긴 문법 중 `setHTMLUnsafe`을 [유튜브-제로초](https://www.youtube.com/shorts/rYtl-kVPWwk) 보다 알게 되었는데, 궁금하신 분은 영상 보시길!
 
 ### :two: dangerouslySetInnerHTML 사용 방법
 
