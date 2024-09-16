@@ -8,6 +8,7 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - troubleshooting
+  - til
 tags:
   - styled components
   - transient props

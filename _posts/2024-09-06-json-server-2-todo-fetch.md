@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - react
   - mini
+  - til
 tags:
   - json-server
   - fetch

@@ -8,6 +8,7 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - supabase
+  - til
 tags:
   - supabase
   - database

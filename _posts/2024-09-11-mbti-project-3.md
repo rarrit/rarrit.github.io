@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - react
   - mini
+  - til
 tags:
   - mini project
 author_profile: true

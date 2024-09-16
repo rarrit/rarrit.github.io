@@ -8,6 +8,7 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - troubleshooting
+  - til
 tags:
   - props type error
 author_profile: true

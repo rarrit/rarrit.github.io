@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - git
   - troubleshooting
+  - til
 tags:
   - git swap file
 author_profile: true

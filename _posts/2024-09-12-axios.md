@@ -8,6 +8,7 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - api
+  - til
 tags:
   - axios
 author_profile: true

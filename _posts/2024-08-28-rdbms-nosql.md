@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - development
   - supabase
+  - til
 tags:
   - supabase
 author_profile: true
