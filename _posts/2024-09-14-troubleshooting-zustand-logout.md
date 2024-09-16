@@ -1,5 +1,5 @@
 ---
-title: "Zustand 를 사용한 로그아웃 리렌더링 현상"
+title: "로그인 실행 시 상태값 변환으로 리렌더링되어 publicRoute의 alert이 출력되는 현상"
 date: 2024-09-14
 layout: single
 toc: true
