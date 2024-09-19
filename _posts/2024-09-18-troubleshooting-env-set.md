@@ -18,6 +18,9 @@ sidebar_main: true
 ## :ledger: 이번 아웃소싱 프로젝트와 이전 프로젝트를 진행하며 자주 겪었던 에러다.
 
 ### :one: 개요
+
+![youtube-api-error](https://github.com/user-attachments/assets/90ea8b0a-37a7-447e-86d6-6ef949fbff8c)
+
 추석동안 각자 프로젝트 진행 후 merge하는 과정에서 유튜브 API가 정상적으로 호출되지 않는 문제가 발생했다. 이전에도 비슷한 상황을 겪었지만 당시에는 문제를 해결하지 못했고, 결국 API가 정상적으로 호출되는 동료의 코드를 clone해서 작업한 경험이 있다.
 
 ### :two: 분석 및 처리
