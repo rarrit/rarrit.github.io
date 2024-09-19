@@ -1,6 +1,6 @@
 ---
 title: "협업시 .env 환경 변수를 셋팅하며 자주 겪는 오류"
-date: 2024-09-15
+date: 2024-09-18
 layout: single
 toc: true
 toc_label: "목차"
