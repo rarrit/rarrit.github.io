@@ -10,7 +10,7 @@ categories:
   - development
   - til
 tags:
-  - Boilerplate
+  - Optional Chaining
 author_profile: true
 sidebar_main: true
 ---
