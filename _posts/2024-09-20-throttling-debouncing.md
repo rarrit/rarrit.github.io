@@ -1,6 +1,6 @@
 ---
 title: "Throttling과 Debouncing에 대해 알아보자."
-date: 2024-09-19
+date: 2024-09-20
 layout: single
 toc: true
 toc_label: "목차"
