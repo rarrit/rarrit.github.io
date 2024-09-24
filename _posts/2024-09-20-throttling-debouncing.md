@@ -131,7 +131,7 @@ const debounce = (delay) => {
 };
 ```
 
-#### :Pushpin: 3-3) 메모리 누수 방지
+#### :pushpin: 3-3) 메모리 누수 방지
 타이머가 걸린 상태에서 컴포넌트가 엄마운트될 경우, 메모리 누수를 방지하기 위해 타이머를 정리하는 역할을 한다.
 ```jsx
 useEffect(() => {
@@ -143,3 +143,6 @@ useEffect(() => {
 
 ### :fire: 마무리
 `Throttling`과 `Debouncing`은 이벤트의 과도한 호출을 방지하고 성능을 최적하하는데에 유용하다.
+
+#### 연습 코드
+[throttling-debouncing-study - rarrit github](https://github.com/rarrit/throttling-debouncing-study)
