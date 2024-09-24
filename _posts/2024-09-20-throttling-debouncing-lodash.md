@@ -1,5 +1,5 @@
 ---
-title: "Throttling과 Debouncing에 대해 알아보자."
+title: "Throttling,Debouncing과 Lodash에 대해 알아보자."
 date: 2024-09-20
 layout: single
 toc: true
@@ -9,9 +9,11 @@ toc_sticky: true
 categories:
   - development
   - til
-  - react
+  - lib
 tags:
-  - Optional Chaining
+  - throttling
+  - debouncing
+  - lodash
 author_profile: true
 sidebar_main: true
 ---
@@ -141,8 +143,68 @@ useEffect(() => {
 }, []);
 ```
 
+### :four: Lodash 라이브러리 사용
+`Lodash`는 `throttling`과 `debouncing` 기법을 보다 쉽게 사용할 수 있도록 도와주는 유용한 라이브러리다.
+
+#### :pushpin: 4-1) Lodash 설치
+
+```bash
+# 터미널 입력
+yarn add lodash
+```
+
+#### :pushpin: 4-2) Lodash 사용
+설치 후 아래와 같이 `import`해서 사용이 가능하다.
+
+```javascript
+import _ from "lodash";
+```
+
+#### :pushpin: 4-3) Lodash로 리팩토링
+위에서 사용한 `throttle`, `debounce`함수를 `lodash`를 사용하여 변경해주었다.
+
+```jsx
+// throttle
+const throttle = _.throttle(() => {
+  console.log("API 요청 실행! 2000ms 동안 추가요청 안받음!");
+}, 2000);
+
+// debounce
+const debounce = _.debounce(() => {
+  console.log("마지막 요청으로부터 2000ms 지났으므로 API 요청 실행!");
+}, 2000);
+```
+
+#### :pushpin: 4-4) 검색창 디바운싱
+입력값이 변경될 때마다 마지막 입력 후 2초가 지나면 상태(searchText)가 업데이트된다. 즉, 사용자가 입력을 빠르게 여러번 할 때 API 요청이 불필요하게 여러 번 발생하는 것을 방지한다.
+
+```jsx
+const [searchText, setSearchText] = useState("");
+const [inputText, setInputText] = useState("");  
+
+// 입력값에 debounce 적용
+const handleSearchText = useCallback(_.debounce((text) => setSearchText(text), 2000), []);
+
+
+const handleChange = (e) => {
+  setInputText(e.target.value);
+  handleSearchText(e.target.value);
+};  
+
+// return 
+<h2>디바운싱 예제</h2>
+<input
+  placeholder="입력값을 넣고 디바운싱 테스트를 해보세요."
+  style={{ width: "300px" }}
+  onChange={handleChange}
+  type="text"
+/>
+<p>Search Text: {searchText}</p>
+<p>Input Text: {inputText}</p>
+```
+
 ### :fire: 마무리
-`Throttling`과 `Debouncing`은 이벤트의 과도한 호출을 방지하고 성능을 최적하하는데에 유용하다.
+`Throttling`과 `Debouncing`은 이벤트의 과도한 호출을 방지하고 성능을 최적하하는데에 유용하다. 그리고 이를 더 쉽게 사용할 수 있도록 도와주는 라이브러리인 `lodash`를 알아보고 예제를 만들어 보며 이해할 수 있었다. 
 
 #### 연습 코드
-[throttling-debouncing-study - rarrit github](https://github.com/rarrit/throttling-debouncing-study)
+[throttling-debouncing-lodash-study - rarrit github](https://github.com/rarrit/throttling-debouncing-lodash-study)
