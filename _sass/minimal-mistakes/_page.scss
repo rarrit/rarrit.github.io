@@ -183,6 +183,13 @@ body {
     margin-top: -1.5em;
     padding-inline-start: 1.25rem;
   }
+
+  /* Custom */
+  h3 {
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 3px dashed #333;
+  }
 }
 
 .page__hero {
