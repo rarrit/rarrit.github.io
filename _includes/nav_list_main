@@ -25,6 +25,26 @@
             </ul>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
+                <!--react 카테고리 글들을 모아둔 페이지인 /categories/next 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "next" %}
+                        <li><a href="/categories/next" class="">Next <span class="category-num">({{category[1].size}})</span></a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--react 카테고리 글들을 모아둔 페이지인 /categories/ts 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "ts" %}
+                        <li><a href="/categories/ts" class="">TypeScript <span class="category-num">({{category[1].size}})</span></a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>                        
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
                 <!--html 카테고리 글들을 모아둔 페이지인 /categories/html 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
