@@ -1,5 +1,5 @@
 ---
-title: "타입스크립트란 무엇인지 알아보자! (설치방법 포함)"
+title: "[TS] 타입스크립트란 무엇인지 알아보자!"
 date: 2024-09-25
 layout: single
 toc: true
@@ -69,35 +69,6 @@ x = "string" // 오류남
   - 즉, 런타임(<->컴파일 타임)에는 전부 JavaScript와 동일하게 동작함
 
 위와 같이 동작하며 **타입스크립트는 자바스크립트의 모든 기능을 포함하는 상위 집합의 언어**라고 할 수 있다.
-
-### :three: TypeScript 설치 방법
-Vite + React + TypeScript 설치
-
-#### :pushpin: 3-1) 이미 있는 React 프로젝트에 설치
-
-```bash
-npm install --save typescript @types/node @types/react @types/react-dom @types/jest
-```
-
-#### :pushpin: 3-2) 프로젝트 생성 01
-처음부터 생성하려면 터미널을 열고 아래의 명령어를 입력 후 잘 선택하면된다.
-
-```bash
-npm create vite@latest
-```
-
-#### :pushpin: 3-3) 프로젝트 생성 02
-Vite를 사용하여 TypeScript와 React 템플릿 기반으로 프로젝트 생성
-
-```bash
-npm create vite@latest my-react-ts-app -- --template react-ts
-```
-
-#### :pushpin: 3-2) 디렉토리 이동 및 종속성 설치
-```bash
-cd 프로젝트명
-npm install
-```
 
 ### :fire: 마무리
 이렇게 타입스크립트를 설치하고 사용하는 방법을 알았다면, 이제 실수를 줄이며 더 안전한 코드를 작성할 준비가 된 것이다. 맛있는 라면처럼, 타입스크립트로 더 완성도 높은 프로젝트를 만들어 보자..!
