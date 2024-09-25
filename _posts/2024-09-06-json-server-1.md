@@ -67,6 +67,26 @@ db.json 파일이 없으면, `File db.json not found` 노출되니 꼭 생성 �
 yarn json-server db.json --port 4000
 ```
 
+### :pushpin: 3-3) package.json 설정 및 실행
+
+db.json 생성 후 `package.json` 파일을 열어 `"scripts"`안에 `"server": "json-server --watch db.json --port 4000",`을 넣어주고 터미널에서 `yarn server`를 입력하면 똑같이 json-server가 실행된다.
+
+```jsx
+// package.json
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "server": "json-server --watch db.json --port 4000",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+```
+
+```jsx
+// 터미널 입력
+yarn server
+```
+
 ### :fire: 마무리
 
 `json-server`를 통해 간단하게 가짜 서버를 만들고, 프론트엔드 개발을 독립적으로 진행하는 방법을 알아보았다. 다음 글에서는 `fetch`, `axios`를 사용해서 간단한 todoList를 만들어보며, 좀 더 익숙해져보려 한다.
