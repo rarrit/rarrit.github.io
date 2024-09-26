@@ -24,7 +24,7 @@ sidebar_main: true
 ### :one: Next.js에서의 SEO와 Metadata의 중요성
 `Next.js`는 서버사이드 렌더링(SSR)을 지원하며, 이는 검색 엔진이 페이지를 효과적으로 크롤링할 수 있도록 도와준다. 그리고 각 페이지에 대한 메타데이터를 제공하여 검색 엔진에 해당 페이지의 내용을 알리는 것이 가능하다.
 
-#### :pushpin: MetaData의 역할
+#### :pushpin: 1-1) MetaData의 역할
 1. **페이지 제목(title)**
   - 검색 엔진과 브라우저 탭에 표시됨.
 2. **설명(description)**
