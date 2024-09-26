@@ -1,6 +1,6 @@
 ---
 title: "[TS] 타입스크립트란 무엇인지 알아보자!"
-date: 2024-09-25
+date: 2024-09-24
 layout: single
 toc: true
 toc_label: "목차"
