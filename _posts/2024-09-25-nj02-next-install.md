@@ -8,9 +8,9 @@ toc_icon: "align-left"
 toc_sticky: true
 categories:
   - til
-  - ts  
+  - next
 tags:
-  - typescript
+  - next.js
 author_profile: true
 sidebar_main: true
 ---
