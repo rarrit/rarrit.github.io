@@ -11,7 +11,7 @@ categories:
   - next 
 tags:
   - next js
-  - routing
+  - next special file
 author_profile: true
 sidebar_main: true
 ---
