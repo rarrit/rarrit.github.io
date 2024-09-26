@@ -16,6 +16,7 @@ sidebar_main: true
 ---
 
 ## :ledger: Next.js 설치 방법 및 파일 구조를 알아보자
+정~말 쉽고 편해요!
 
 ### :one: Next.js 설치 방법
 공식 홈페이지 내용 참조한 설치 방법은 아래와 같다.
