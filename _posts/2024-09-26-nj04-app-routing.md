@@ -111,5 +111,26 @@ app/
         └── page.tsx  # /posts/list 페이지
 ```
 
+#### :pushpin: 2-5) 라우트 그룹 (Route Groups)
+1. **설명**
+  - 특정 경로를 그룹화하여 공통된 설정이나 구성 요소를 적용할 수 있는 방법으로 파일 이름에 소괄호(예시: `(admin)`)를 사용하여 정의한다.
+2. **특징**
+  - Route Groups는 URL 경로에서 제외됨
+  - 공통 레이아웃, 컴포넌트를 쉽게 공유함 (아래의 Layout 확인)
+3. **예시**
+  - 아래의 구조에서 (auth)라는 Route Group은 로그인과 회원가입 페이지를 포함한다. 이 그룹은 URL 경로에 영향을 주지 않으며, 사용자가 /login 또는 /register로 접근할 수 있음.
+
+```bash
+app/
+├── (auth)/
+│   ├── login/
+│   │   └── page.tsx  # /login 페이지
+│   ├── register/
+│   │   └── page.tsx  # /register 페이지
+│   ├── layout.tsx # auth 레이아웃
+├── dashboard/
+│   └── page.tsx  # /dashboard 페이지
+```
+
 ### :fire: 마무리
 Next.js의 라우팅의 개념과 용어들을 알아보았는데, React 라우팅 보다 정~말 편한 것 같다. 다양한 라우팅 방법을 지원하므로 프로젝트 구조와 요구 사항에 맞춰 효율적으로 사용해보도록 하자!
