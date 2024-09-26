@@ -68,5 +68,35 @@ app/
 └── page.tsx          # 기본 페이지
 ```
 
+- 코드 예시
+
+```tsx
+"use client";
+
+import { useEffect } from "react";
+
+// layout -> template로 변경하면 똑같이 동작하지만, 네비게이션시 새로 렌더링됨
+// 다시 실행 필요 없을 때 layout.tsx 
+// 실행이 필요할 때 template.tsx
+
+const PostLayout = ({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) => {
+  
+  return (
+    <>
+      <h1>Post 페이지입니다.</h1>
+      {children}      
+    </>
+  )
+  
+}
+
+export default PostLayout
+
+```
+
 ### :fire: 마무리
 Next.js에서 공통 레이아웃을 쉽게 설정할 수 있으며, 중첩 레이아웃을 활용하여 세분화된 관리가 가능하다. 
