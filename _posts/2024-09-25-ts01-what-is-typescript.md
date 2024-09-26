@@ -15,7 +15,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: 타입스크립트라는 언어가 무엇인지, 설치 방법은 어떻게 되는지 알아보자
+## :ledger: 타입스크립트라는 언어가 무엇인지 알아보자!
 
 ![img-typescript-start](https://github.com/user-attachments/assets/358bd633-bbb5-4c19-ad78-50ee76e6daa1)
 
