@@ -79,7 +79,7 @@ app/
     └── page.tsx  # /about 경로에 고정된 페이지
 ```
 
-#### pushpin: 2-3) 동적 라우팅 (Dynamic Routing)
+#### :pushpin: 2-3) 동적 라우팅 (Dynamic Routing)
 1. **설명**
   - 경로의 특정 부분을 변수로 설정하여 다양한 값을 URL에 포함시킬 수 있는 라우팅 방식으로 폴더 이름이 대괄호([])를 사용해서 변수화한다.
 2. **특징**
@@ -94,7 +94,7 @@ app/
         └── page.tsx  # /posts/[id] 경로로 동적 라우팅
 ```
 
-#### pushpin: 2-4) 중첩 라우팅 (Nested Routing)
+#### :pushpin: 2-4) 중첩 라우팅 (Nested Routing)
 1. **설명**
   - 특정 경로 안에 여러 하위 경로를 중첩시켜 라우팅을 처리함
 2. **특징**
