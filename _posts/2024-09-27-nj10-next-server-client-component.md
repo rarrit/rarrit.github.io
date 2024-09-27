@@ -9,11 +9,9 @@ toc_sticky: true
 categories:
   - til
   - next 
-  - development
 tags:
   - next js
-  - next seo
-  - metadata
+  - next component
 author_profile: true
 sidebar_main: true
 ---
