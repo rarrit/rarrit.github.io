@@ -1,5 +1,5 @@
 ---
-title: "[Next.js] MPA, SPA와 4가지 주요 렌더링 기법(CSR,SSG,ISR,SSR) 알아보기"
+title: "[Next.js] 렌더링 패턴(CSR,SSG,ISR,SSR) 구현해보기"
 date: 2024-09-27
 layout: single
 toc: true
