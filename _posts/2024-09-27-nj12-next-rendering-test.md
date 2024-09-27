@@ -11,8 +11,11 @@ categories:
   - next 
   - development
 tags:
-  - next js
-  - next component
+  - next rendering
+  - csr
+  - ssg
+  - isr
+  - ssr
 author_profile: true
 sidebar_main: true
 ---
