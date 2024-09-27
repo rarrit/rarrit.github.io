@@ -11,8 +11,13 @@ categories:
   - next 
   - development
 tags:
-  - next js
-  - next component
+  - next
+  - mpa
+  - spa
+  - ssr
+  - csr
+  - isr
+  - ssg
 author_profile: true
 sidebar_main: true
 ---
