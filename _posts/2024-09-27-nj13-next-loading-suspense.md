@@ -1,5 +1,5 @@
 ---
-title: "[Next.js] Suspense, Loading UI, Streaming SSR"
+title: "[Next.js] Loading 처리 하는 방법 (Streaming SSR)"
 date: 2024-09-27
 layout: single
 toc: true
