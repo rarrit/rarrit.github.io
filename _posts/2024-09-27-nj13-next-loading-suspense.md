@@ -9,7 +9,6 @@ toc_sticky: true
 categories:
   - til
   - next 
-  - development
 tags:
   - next js
   - suspense
