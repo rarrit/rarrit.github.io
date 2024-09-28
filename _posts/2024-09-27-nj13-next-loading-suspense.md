@@ -152,3 +152,6 @@ export default async function Home() {
 
 ### :fire: 마무리
 `Next.js`의 `Loading UI`, `Suspense`, `Streaming SSR`은 모두 사용자 경험을 개선하고 페이지 로딩 속도를 최적화하는 데 매우 중요한 역할을 한다. 특히 많은 데이터와 느린 네트워크 환경에서 이러한 기술을 적절히 활용하면 사용자에게 더 좋은 웹 사이트 경험을 제공할 수 있다.
+
+#### :pushpin: 테스트
+- [rarrit github - rarrit/next-js-study-app/tree/feat/loading](https://github.com/rarrit/next-js-study-app/tree/feat/loading)
