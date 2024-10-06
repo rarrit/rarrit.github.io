@@ -1,6 +1,6 @@
 ---
 title: "[Next.js] Unhandled Runtime Error 해결 "
-date: 2024-10-07
+date: 2024-10-06
 layout: single
 toc: true
 toc_label: "목차"
