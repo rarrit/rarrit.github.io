@@ -15,7 +15,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: tailwind를 사용해서 text ... 처리하는 방법을 알아보았다.
+## :ledger: tailwind를 사용해서 text ... 처리하는 방법을 알아보았다!
 이번 Next.js 프로젝트를 진행하며 tailwind를 사용했고, description이 정말 긴 경우 좌측의 info의 영역이 원치 않게 넓어져서 공백이 너무 많이 보였다. 공백을 없애주고 원하는 레이아웃을 적용하기 위해 description을 ... 처리하는 방법을 알아보았다. 처음 적용된 레이아웃은 아래와 같다.
 
 ![clamp-before](https://github.com/user-attachments/assets/c4b014a1-b15c-4b83-86ef-74c4bc8369e7)
