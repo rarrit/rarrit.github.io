@@ -1,6 +1,6 @@
 ---
 title: "[Next.js] CSR 환경에서 Suspense 사용해보았다."
-date: 2024-10-06
+date: 2024-10-04
 layout: single
 toc: true
 toc_label: "목차"
