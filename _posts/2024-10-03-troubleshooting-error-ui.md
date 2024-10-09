@@ -50,6 +50,9 @@ export default function Error({ error, reset }: ErrorProps) {
 ```
 
 ### :fire: 마무리
+
+![error-ui](https://github.com/user-attachments/assets/59c13abf-1f4f-4b8d-a46a-eba58be59d56)
+
 서버와 클라이언트에서 모두 에러 UI를 처리하려면, 전역 클라이언트 에러 핸들링을 위한 `global-error.tsx`와 각 라우트 또는 페이지별 서버 에러 핸들리을 위한 `error.tsx` 파일을 사용하면 된다.
 
 - CSR 에러: global-error.tsx
