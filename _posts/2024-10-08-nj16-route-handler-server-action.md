@@ -57,7 +57,7 @@ export async function PATCH(request: Request) {
 }
 ```
 
-#### pushpin: 1-3) 실제 사용 예시
+#### :pushpin: 1-3) 실제 사용 예시
 이번 Next.js 프로젝트에서 사용한 코드는 아래와 같다.
 
 - `getChampionRotation` 함수는 두 가지 데이터를 결합함
