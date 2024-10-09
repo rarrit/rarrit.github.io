@@ -16,7 +16,7 @@ sidebar_main: true
 ---
 
 ## :ledger: next.js에서 use client 환경에서 서스펜스를 사용해보았다.
-
+이번 Next.js를 사용한 [리그오브레전드 정보 프로젝트](https://rarrit.github.io/mini/til/next-lol06/)에서 겪었던 에러입니다.
 
 ### :one: 개요
 이번 Next.js 프로젝트에서 `Suspense` 를 사용하여 로딩작업 중 CSR환경에서 적용되지 않는 이슈가 있었다. 어떤 문제였고 어떻게 해결했는지 작성해보았다.
