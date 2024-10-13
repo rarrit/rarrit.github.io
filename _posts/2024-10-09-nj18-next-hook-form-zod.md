@@ -48,6 +48,7 @@ function MyInput() {
 
 - 아래의 코드에서 값이 변화하더라도 input을 제외한 필드가 리렌더링 되지 않는다.
   - `useRef`를 사용해 `inputNode`를 `input`요소에 직접 연결한다. useState를 사용하지 않기 때문에 입력 필드의 값이 변화해도 React는 이를 상태 변경으로 인식하지 않으며, 컴포넌트 리렌더링이 발생하지 않는다.
+  
 ```tsx
 import React, { useRef } from 'react';
 
