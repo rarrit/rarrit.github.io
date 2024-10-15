@@ -9,6 +9,7 @@ toc_sticky: true
 categories:
   - react
   - til
+  - css
 tags:
   - react
   - style component
