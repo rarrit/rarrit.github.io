@@ -339,7 +339,7 @@ export default function RootLayout({ children }) {
   )
 ```
 
-### :pushpin: react의 react query와 차이점
+### :six: react의 react query와 차이점
 
 - React는 주로 클라이언트에서 데이터를 가져오는 CSR 방식으로 React Query를 사용하며, Next.js는 서버에서 데이터를 미리 가져와 사용하는 SSR/SSG 방식이 추가된다는 점에서 차이가 있음.
 - Next.js에서는 React Query와 함께 서버 사이드 데이터 페칭과 클라이언트 캐싱 동기화를 유기적으로 활용할 수 있으며, SEO와 초기 렌더링 성능에서도 이점이 있음.
