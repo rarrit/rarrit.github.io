@@ -178,7 +178,7 @@ const { mutate, isLoading } = useMutation({
 
 ### :four: React Query 대표 기능
 
-#### pushpin: 4-1) useQuery
+#### :pushpin: 4-1) useQuery
 - GET 요청에 주로 사용된다. 
 - 첫 번째 파라미터로 unique key를 포함한 배열이 들어가고, 두 번째 파라미터로 실제 호출하고자 하는 비동기 함수가 들어간다.
 
@@ -218,7 +218,7 @@ function Example() {
 }
 ```
 
-#### pushpin: 4-2) useMutation
+#### :pushpin: 4-2) useMutation
 `useMutation`은 주로 **PUT, UPDATE, DELETE** 요청에 주로 사용된다
 
 ```tsx
