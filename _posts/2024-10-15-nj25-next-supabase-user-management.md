@@ -44,7 +44,6 @@ alter table public.profiles enable row level security;
 
 - 트리거 설정 후 회원가입을 하면 자동으로 public 스키마의 profiles가 추가되는걸 확인할 수 있다.
 
-
 ```sql
 -- inserts a row into public.profiles
 create function public.handle_new_user()
@@ -65,6 +64,9 @@ create trigger on_auth_user_created
   for each row execute procedure public.handle_new_user();
 
 ```
+
+![supabase-profiles-table](https://github.com/user-attachments/assets/c8b3a502-6126-4124-b9ce-eb15d53d7063)
+
 
 ### :fire: 마무리
 [supabase 공식문서 - User Management](https://supabase.com/docs/guides/auth/managing-user-data)를 통해 사용자 테이블을 생성하고 관리하는 방법에 대해 알아보았다. 이러한 과정을 통해 더 안전하고 효율적인 인증 시스템을 구축하는 방법을 배울 수 있었다.
