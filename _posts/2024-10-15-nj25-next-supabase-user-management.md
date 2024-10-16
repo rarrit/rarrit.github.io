@@ -67,6 +67,6 @@ create trigger on_auth_user_created
 ```
 
 ### :fire: 마무리
-[공식문서 - Setting up Server-Side Auth for Next.js](https://supabase.com/docs/guides/auth/server-side/nextjs?queryGroups=router&router=app)를 통해 Supabase와 Next.js의 Server-Side Auth를 연동하고 이번엔 사용자 테이블을 생성하고 관리하는 방법에 대해 알아보았다. 이러한 과정을 통해 더 안전하고 효율적인 인증 시스템을 구축하는 방법을 배울 수 있었다.
+[supabase 공식문서 - User Management](https://supabase.com/docs/guides/auth/managing-user-data)를 통해 사용자 테이블을 생성하고 관리하는 방법에 대해 알아보았다. 이러한 과정을 통해 더 안전하고 효율적인 인증 시스템을 구축하는 방법을 배울 수 있었다.
 
 - [https://github.com/rarrit/next-supabase-auth](https://github.com/rarrit/next-supabase-auth)
