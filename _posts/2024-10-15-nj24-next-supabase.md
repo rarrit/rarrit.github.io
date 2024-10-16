@@ -29,7 +29,7 @@ Next.js와 Supabase를 사용해서 서버 측에서 인증 정보를 다루는 
 yarn add @supabase/supabase-js @supabase/ssr
 ```
 
-#### :psuhpin: 1-2) 환경변수 설정
+#### :pushpin: 1-2) 환경변수 설정
 루트 디렉토리에 `.env.local` 파일을 만들고 아래와 같이 설정한다.
 
 ```bash
@@ -311,6 +311,12 @@ export default function LogoutButton() {
   );
 }
 ```
+
+#### :pushpin: 4-6) 사용자 이메일 확인 생략
+[공식문서](https://supabase.com/docs/guides/auth/server-side/nextjs?queryGroups=router&router=app)에서 회원가입 시 이메일 인증 확인을 위한 route handler를 생성해주지만, 테스트 목적으로 사용해서 이 부분은 생략해주었다. 
+
+- 공식문서 7번 내용 생략
+- 수퍼베이스의 좌측 사이드바 project settings -> Authentication 메뉴 클릭 -> SMTP Settings 에서 체크를 해제해준다.
 
 #### :pushpin: 4-6) 로그인 여부 확인
 아래와 같이 로그인을 판별하여, 로그아웃 버튼과 로그인 유저의 email을 확인할 수 있다.
