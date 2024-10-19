@@ -1,6 +1,6 @@
 ---
 title: "코드 스플리팅(Code Splitting)이란?"
-date: 2024-10-17
+date: 2024-10-19
 layout: single
 toc: true
 toc_label: "목차"
