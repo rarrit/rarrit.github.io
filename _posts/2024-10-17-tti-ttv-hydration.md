@@ -1,6 +1,6 @@
 ---
 title: "TTI, TTV, Hydration이란 무엇인가?"
-date: 2024-10-18
+date: 2024-10-17
 layout: single
 toc: true
 toc_label: "목차"
