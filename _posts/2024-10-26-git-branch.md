@@ -15,7 +15,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: 프로젝트 협업 시 git branch를 문제없이 사용하는 방법을 알아보자.
+## :ledger: 프로젝트 협업 시 git branch를 문제없이 사용하는 방법을 알아보자..
 
 스파르타 부트캠프에 오고나서 git을 정말 많이 사용해본 것 같다. 그런데, pull과 merge, 그리고 push하는 과정에서 정말 쉽게 생각했는데 최종 프로젝트에서 그동안 잘못 알고 있었다는 것을 깨닫고 글을 작성하게 되었다.
 
