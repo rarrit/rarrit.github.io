@@ -57,8 +57,10 @@ type SlideProps = {
 
 처음 PR을 했을 때 뭘 잘못했는지 못느꼇다. 근데, 이후에 작업을 하면서 정말 스스로에게 어이없었는데.. 문제의 코드는 아래와 같다.
 
+- `문제의 코드`
+
 <details>
-<summary>문제의 코드</summary>
+<summary>문제의 코드 보기</summary>
 <div markdown="1">
 
 ```ts
@@ -150,8 +152,10 @@ export default Slide;
 
 위에서 설명한 것들을 수정한 코드는 아래와 같다.
 
+- `수정된 코드`
+
 <details>
-<summary>문제의 코드</summary>
+<summary>수정된 코드 보기</summary>
 <div markdown="1">
 
 ```ts
