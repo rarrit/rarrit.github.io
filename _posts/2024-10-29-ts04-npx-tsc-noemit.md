@@ -26,6 +26,8 @@ vercel에 배포할 때 ESLint를 통해 발생하기도 하고 이번 프로젝
 
 ### :two: 사용이유
 
+![image example](https://github.com/user-attachments/assets/7e846c1d-c451-49b6-883c-4414da1400e1)
+
 TypeScript는 JavaScript에 타입을 추가하여 보다 안전한 코드를 작성할 수 있도록 도와주는 프로그래밍 언어이며, TypeScript를 사용하는 과정에서 컴파일러인 `tsc`를 자주 사용하게 된다. 그 중 `npx tsc --noEmit` 명령어는 특정한 상황에서 매우 유용하게 활용함.
 
 ### :three: 사용법
