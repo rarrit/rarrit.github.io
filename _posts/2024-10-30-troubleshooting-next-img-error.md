@@ -1,6 +1,6 @@
 ---
 title: "[Next.js] 외부 이미지 로드 오류 해결하기"
-date: 2024-11-02
+date: 2024-10-30
 layout: single
 toc: true
 toc_label: "목차"
