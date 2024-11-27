@@ -1,6 +1,6 @@
 ---
 title: "[6차] 스파르타 최종 프로젝트 - 메인 페이지 작업"
-date: 2024-10-24
+date: 2024-11-05
 layout: single
 toc: true
 toc_label: "목차"
