@@ -1,5 +1,5 @@
 ---
-title: "[Next.js] swiper 라이브러리를 사용한 공통 슬라이드 만들기 1차"
+title: "[Next.js] swiper 라이브러리를 사용한 공통 슬라이드 만들기"
 date: 2024-10-27
 layout: single
 toc: true

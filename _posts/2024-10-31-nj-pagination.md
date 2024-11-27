@@ -1,5 +1,5 @@
 ---
-title: "[Next.js] 공통 페이지네이션 만들기 1차"
+title: "[Next.js] 공통 페이지네이션 만들기"
 date: 2024-10-31
 layout: single
 toc: true
