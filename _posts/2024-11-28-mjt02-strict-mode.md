@@ -48,3 +48,7 @@ sidebar_main: true
 ### :fire: 회고
 
 그냥 듣기만했고 왜 쓰는지는 자세히 알 지 못했는데, 엄격 모드를 사용하면 브라우저 최적화와 코드의 안정성과 품질을 위해 사용하는게 좋은 것 같다.
+
+#### :pushpin: 참고 문서
+
+- [ko.javascript.info - 엄격 모드](https://ko.javascript.info/strict-mode)
