@@ -1,6 +1,6 @@
 ---
 title: "[mjt] 자바스크립트의 형 변환에 대해 알아보자"
-date: 2024-12-03
+date: 2024-12-01
 layout: single
 toc: true
 toc_label: "목차"
