@@ -1,6 +1,6 @@
 ---
 title: "[mjt] 함수 선언식, 표현식, 화살표 함수 비교"
-date: 2024-12-03
+date: 2024-12-04
 layout: single
 toc: true
 toc_label: "목차"
