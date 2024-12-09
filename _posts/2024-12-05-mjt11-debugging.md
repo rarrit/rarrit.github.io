@@ -1,5 +1,5 @@
 ---
-title: "[mjt] 복잡한 코드에서 디버깅을 통해 실행 단계를 확인하자"
+title: "[mjt] 디버깅하는 방법을 알아보자"
 date: 2024-12-05
 layout: single
 toc: true
@@ -62,3 +62,4 @@ function hello(name) {
 #### :pushpin: 참고 문서
 
 - [ko.javascript.info - Chrome으로 디버깅하기](https://ko.javascript.info/debugging-chrome)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools?hl=ko)
