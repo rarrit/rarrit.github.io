@@ -1,5 +1,5 @@
 ---
-title: "[mjt] 위크맵과 위크셋에 대해 알아보자"
+title: "[mjt] 위크맵과 위크셋에 대해 알아보자 (weakmap, weakset)"
 date: 2025-01-02
 layout: single
 toc: true
@@ -144,4 +144,4 @@ function traverse(node) {
 
 #### :pushpin: 참고 문서
 
-- [ko.javascript.info - 맵과 셋](https://ko.javascript.info/weakmap-weakset)
+- [ko.javascript.info - 위크맵과 위크셋](https://ko.javascript.info/weakmap-weakset)
