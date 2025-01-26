@@ -1,6 +1,6 @@
 ---
 title: "[mjt] setTimeout, setInterval, clearTimeout에 대해 알아보자"
-date: 2025-01-11
+date: 2025-01-26
 layout: single
 toc: true
 toc_label: "목차"
