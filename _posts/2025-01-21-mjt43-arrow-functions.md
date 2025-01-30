@@ -10,7 +10,7 @@ categories:
   - til
   - mjt
 tags:
-  - bind
+  - arrow functions
 author_profile: true
 sidebar_main: true
 ---
