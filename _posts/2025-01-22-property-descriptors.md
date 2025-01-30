@@ -1,6 +1,6 @@
 ---
 title: "[mjt] 프로퍼티 플래그와 설명자란"
-date: 2025-01-27
+date: 2025-01-22
 layout: single
 toc: true
 toc_label: "목차"
@@ -116,7 +116,7 @@ let user = { name: "철수" };
 
 Object.defineProperty(user, "name", { writable: false });
 
-user.name = "영희"; // ❌ TypeError (엄격 모드에서 오류 발생)
+user.name = "영희"; // TypeError (엄격 모드에서 오류 발생)
 console.log(user.name); // 철수
 ```
 
@@ -146,10 +146,10 @@ let user = { name: "철수" };
 
 Object.defineProperty(user, "name", { configurable: false });
 
-delete user.name; // ❌ 삭제되지 않음
+delete user.name; // 삭제되지 않음
 console.log(user.name); // 철수
 
-Object.defineProperty(user, "name", { writable: true }); // ❌ TypeError (configurable이 false이므로 변경 불가)
+Object.defineProperty(user, "name", { writable: true }); // TypeError (configurable이 false이므로 변경 불가)
 ```
 
 ### :fire: 요약
