@@ -10,9 +10,8 @@ categories:
   - til
   - mjt
 tags:
-  - property
-  - getter
-  - setter
+  - prototype
+  - constructor
 author_profile: true
 sidebar_main: true
 ---
