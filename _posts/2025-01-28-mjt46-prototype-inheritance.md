@@ -1,6 +1,6 @@
 ---
 title: "[mjt] 프로토타입과 상속에 대해 알아보자"
-date: 2025-01-23
+date: 2025-01-28
 layout: single
 toc: true
 toc_label: "목차"

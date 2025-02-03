@@ -1,6 +1,6 @@
 ---
 title: "[mjt] 함수의 prototype 프로퍼티에 대해 알아보자"
-date: 2025-01-23
+date: 2025-01-29
 layout: single
 toc: true
 toc_label: "목차"
