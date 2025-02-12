@@ -1,6 +1,6 @@
 ---
 title: "tailwind CSS npx tailwindcss init -p 에러 해결 방법"
-date: 2024-02-12
+date: 2025-02-12
 layout: single
 toc: true
 toc_label: "목차"
