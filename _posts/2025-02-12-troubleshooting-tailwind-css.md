@@ -37,7 +37,7 @@ sidebar_main: true
 
 ### :three: 해결 방법
 
-위의 이미지의 ![링크](https://www.threads.net/@fdaytalk/post/DFVToEbtWIq/how-to-fix-npx-tailwindcss-init-error-in-tailwind-v4-solvedif-youve-recently-tri?hl=ko)로 들어가면 **tailwind v4**에서 일어난 오류를 수정하는 방법을 알려주는데 테일윈드 4버전에서 생긴 오류로 ![fadytalk.com - 해결방법](https://l.threads.net/?u=http%3A%2F%2Fwww.fdaytalk.com%2Fnpx-tailwindcss-init-npm-error-could-not-determine-executable-to-run%2F&e=AT3Yn9aWwgLpjfdu8Izi6UJ6shgzj_qPAFwBORfR3dTF1NxMoAs6C97ISaJxBOXSFA7mOr9gaL3Vhae0AAfyZ6HBZ46DLUK4L2-3HT5rUYmQmjOhV-DHI0olj5Nd9qjn)링크에서 해결 방법을 확인해서 수정해주었다.
+위의 이미지의 [링크](https://www.threads.net/@fdaytalk/post/DFVToEbtWIq/how-to-fix-npx-tailwindcss-init-error-in-tailwind-v4-solvedif-youve-recently-tri?hl=ko)로 들어가면 **tailwind v4**에서 일어난 오류를 수정하는 방법을 알려주는데 테일윈드 4버전에서 생긴 오류로 [fadytalk.com - 해결방법](https://l.threads.net/?u=http%3A%2F%2Fwww.fdaytalk.com%2Fnpx-tailwindcss-init-npm-error-could-not-determine-executable-to-run%2F&e=AT3Yn9aWwgLpjfdu8Izi6UJ6shgzj_qPAFwBORfR3dTF1NxMoAs6C97ISaJxBOXSFA7mOr9gaL3Vhae0AAfyZ6HBZ46DLUK4L2-3HT5rUYmQmjOhV-DHI0olj5Nd9qjn)링크에서 해결 방법을 확인해서 수정해주었다.
 
 1. tailwind 4버전에서는 따로 적용해야 되는 것이 있음
 2. 3버전으로 인스톨하니 정상적으로 해결됨
