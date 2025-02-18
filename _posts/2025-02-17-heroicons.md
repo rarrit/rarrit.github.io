@@ -1,5 +1,5 @@
 ---
-title: "리액트 아이콘 라이브러리 HeroIcons 사용법"
+title: "[React] 리액트 아이콘 라이브러리 HeroIcons 사용법"
 date: 2025-02-17
 layout: single
 toc: true
@@ -7,6 +7,7 @@ toc_label: "목차"
 toc_icon: "align-left"
 toc_sticky: true
 categories:
+  - react
   - til
   - lib
 tags:
@@ -16,7 +17,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: 리액트 아이콘 라이브러리 HeroIcons 사용법
+## :ledger: [React] 리액트 아이콘 라이브러리 HeroIcons 사용법
 
 이번 프로젝트에서 `React`를 사용해 관리자 페이지와 프론트엔드를 작업하게 되었다. 관리자의 경우 템플릿을 기반으로 기본적인 코드가 세팅되어 있었고, 전반적으로 `Tailwind CSS`를 사용했다. 아이콘은 `heroicons` 라이브러리를 활용했는데, 이 라이브러리는 `React`와 `Vue`에서 사용 가능한 아이콘 라이브러리로 이번 글에서는 `Heroicons`의 설치 방법과 사용법을 정리해봤다.
 
