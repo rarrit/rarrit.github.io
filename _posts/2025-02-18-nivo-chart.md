@@ -24,6 +24,8 @@ sidebar_main: true
 
 [Nivo](https://nivo.rocks/)는 **React 기반 데이터 시각화 라이브러리**로 다양한 차트를 손쉽게 만들 수 있다. D3.js(데이터 시각화 무료 오픈소스 javascript 라이브러리 라고함 [What is D3?](https://d3js.org/what-is-d3))를 기반으로 만들어졌으며, `SVG`, `Canvas`, `WebGL`을 활용한 차트 렌더링을 지원해서 성능이 좋다고한다.
 
+![nivo-chart-image01](https://github.com/user-attachments/assets/d64029b0-544b-4a04-9d44-ee51a5af4621)
+
 ### :two: Nivo의 장점과 단점
 
 #### :pushpin: 2-1) 장점
@@ -65,6 +67,8 @@ npm i @nivo/core @nivo/bar @nivo/line @nivo/pie @nivo/radial-bar @nivo/radar @ni
 ### :four: Nivo Chart 사용 방법
 
 이번에 사용할 차트는 Bar 차트여서 [Nivo](https://nivo.rocks/bar/)에서 우측에 있는 `chart`, `code`, `data` 를 확인하여 적용해봤다.
+
+![nivo-chart-image02](https://github.com/user-attachments/assets/b4e1b103-3885-43fa-b9bd-bc3c3264bd39)
 
 #### :pushpin: 4-1) 차트 컴포넌트 생성
 
@@ -225,6 +229,8 @@ const Example = () => {
   );
 };
 ```
+
+![nivo-chart-image03](https://github.com/user-attachments/assets/9a27d9a8-9c08-48fc-81f0-66179b9b0d64)
 
 ### :five: Nivo 선택 이유
 
