@@ -118,7 +118,7 @@ export default TestUseEffectComp;
 
 `react-responsive`를 사용하여 손쉽게 반응형 UI를 구현한다.
 
-- 설치 및 사용방법 참고: ![반응형, 조건부 렌더링 react-responsive 사용하기](https://rarrit.github.io/react/lib/react-responsive/)
+- 설치 및 사용방법 참고: [반응형, 조건부 렌더링 react-responsive 사용하기](https://rarrit.github.io/react/lib/react-responsive/)
 
 `react-responsive`는 `useMediaQuery`를 사용하여 쉽게 조건부 렌더링 처리가 가능하다. 아래와 같이 Custom 컴포넌트를 생성 후
 
@@ -286,4 +286,4 @@ export default TestCustomHookComp;
 
 #### :pushpin: 테스트
 
-- ![https://github.com/rarrit/react-repo/tree/feat/responsive](https://github.com/rarrit/react-repo/tree/feat/responsive)
+- [https://github.com/rarrit/react-repo/tree/feat/responsive](https://github.com/rarrit/react-repo/tree/feat/responsive)
