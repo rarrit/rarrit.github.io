@@ -1,5 +1,5 @@
 ---
-title: "[spring] Intellij 실행버튼 안나올 때 적용 방법 (김영한 - 스프링 입문)"
+title: "[Spring Boot] Intellij 실행버튼 안나올 때 적용 방법 (김영한 - 스프링 입문)"
 date: 2025-04-13
 layout: single
 toc: true
@@ -15,7 +15,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-## :ledger: [spring] Intellij 실행버튼 안나올 때 적용 방법 (김영한 - 스프링 입문)
+## :ledger: [Spring Boot] Intellij 실행버튼 안나올 때 적용 방법 (김영한 - 스프링 입문)
 스프링 강의를 보며 따라하던 중 `작명Application.class`파일에서 실행(재생)버튼이 활성화가 되지 않아서 난감했다. 인프런 댓글, 구글링 결과 많은 사람이 겪은 문제로 여러 글을 참고하여 적용해봤으나 실패했고 `gpt`를 통해 활성화 버튼을 노출시켰으며 방법은 아래와 같다.
 
 ### :one: build.gradle 파일 수정
