@@ -7,7 +7,7 @@ toc_label: "목차"
 toc_icon: "archive"
 toc_sticky: true
 categories:
-  - spring-boot
+  - spring
 tags:
   - spring
   - jar
