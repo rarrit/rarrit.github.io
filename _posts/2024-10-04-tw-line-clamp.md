@@ -34,6 +34,9 @@ sidebar_main: true
 }
 ```
 
+- **250413 우연히 과거의 글을 보게된 후 수정** 
+  - 위에서 추가하기보다는 테일윈드 클래스가 이미 있기에 그냥 쓰면 된다. (ㅎㅎ;;;;) [tailwind CSS - line-clamp](https://tailwindcss.com/docs/line-clamp)
+
 ### :two: 사용 예시
 ... 처리를 할 태그에 `line-clamp-2` 클래스를 적용해주었다.
 
