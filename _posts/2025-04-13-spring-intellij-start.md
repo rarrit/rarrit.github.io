@@ -37,6 +37,4 @@ repositories {
 ```
 
 ### :three: 참고
-아마 실행버튼이 생기기 전에 `IntelliJ IDEA > 설정 > Gradle` 쪽에 `Gradle 프로젝트`영역이 없었는데 위와 같이 적용 후 생긴것을 확인할 수 있다.
-
-![intellij - setting](https://github.com/user-attachments/assets/2eb2c3c0-ba62-4394-b9f2-a6060b42a576)
+아마 실행버튼이 없을 때 `IntelliJ IDEA > 설정 > Gradle` 에서 `Gradle 프로젝트`영역을 확인하면 없고 위와 같은 방법을 진행한 후 확인해보면 정상적으로 노출되는것을 확인할 수 있다.
